@@ -18,6 +18,7 @@ html {
 }
 
 .cabecalho-item {
+  color: white;
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -27,21 +28,24 @@ html {
   gap: 30px;
 }
 
-.button-dark:hover {
-  background-color: #f1f4ff;
-}
-
 .mainmenu {
+  text-align: center;
   padding: 20px;
   margin-bottom: 48px;
   border-top: 0.4px solid white;
 }
 
 .text {
+  padding-top: 560px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  width: 80%;
+  display: inline-block;
 }
 
 .redes-sociais {
@@ -62,22 +66,15 @@ html {
 .projetos {
   padding-top: 80px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: right;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 body {
   font-family: Kanit, sans-serif;
   background-color: black;
+  /* background-image: url("icons/rainbow-gif.gif"); */
+  background-size: 100%;
   color: white;
   font-size: 1.6rem;
-}
-
-p {
-  font-family: Josefin Sans, sans-serif;
-  text-align: left;
-  letter-spacing: -1px;
-  word-spacing: -1px;
-  overflow-y: scroll;
 }
