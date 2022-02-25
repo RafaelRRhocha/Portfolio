@@ -73,9 +73,11 @@ html {
 }
 
 .projetos {
+    padding-top: 80px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: right;
 }
 
 
@@ -88,16 +90,17 @@ body {
 
 p {
   font-family: Josefin Sans, sans-serif;
-  text-align: unset;
+  text-align: left;
   letter-spacing: -1px;
   word-spacing: -1px;
+  overflow-y: scroll;
 }
 
 
 .posicao-anterior {
   border-radius: 10%;
   position: absolute;
-  top: 950px;
+  top: 1200px;
   left: 500px;
   margin: 0px;
   font: bold 12px/24px arial, helvetica, sans-aerif;
@@ -113,7 +116,7 @@ p {
 .posicao-proximo {
     border-radius: 10%;
     position: absolute;
-    top: 950px;
+    top: 1200px;
     left: 650px;
     margin: 0px;
     font: bold 12px/24px arial, helvetica, sans-aerif;
