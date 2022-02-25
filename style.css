@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
