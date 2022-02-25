@@ -18,7 +18,7 @@ html {
 }
 
 .cabecalho-item {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
@@ -40,7 +40,7 @@ html {
 }
 
 .button-dark:hover {
-    background-color: #777777;
+    background-color: #f1f4ff;
 }
 
 .mainmenu {
@@ -83,7 +83,7 @@ body {
   font-family: Kanit, sans-serif;
   background-color: #fffafa;
   color: black;
-  font-size: 25px;
+  font-size: 1.6rem;
 }
 
 p {
