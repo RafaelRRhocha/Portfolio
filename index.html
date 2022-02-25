@@ -4,220 +4,172 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta
+      name="description"
+      content="Portfólio Web - Rafael Rocha Souza"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Portfólio Rafael Rocha</title>
-    <style>
-      h1,
-      h2 {
-        text-align: center;
-      }
-      body {
-        font-family: Kanit, sans-serif;
-        background-color: white;
-        color: black;
-        font-size: 25px;
-      }
-
-      p {
-        font-family: Josefin Sans, sans-serif;
-        text-align: unset;
-        letter-spacing: -1px;
-        word-spacing: -1px;
-      }
-
-      #posicao-dark {
-        border-radius: 30px;
-        position: absolute;
-        top: 100px;
-        left: 1100px;
-        margin: 0px;
-        font: bold 12px/24px arial, helvetica, sans-aerif;
-        padding: 0px;
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
-        background: rgb(0, 0, 0) no-repeat center center;
-        width: 120px;
-        height: 24px;
-      }
-
-      .posicao-anterior {
-        border-radius: 10%;
-        position: absolute;
-        top: 750px;
-        left: 500px;
-        margin: 0px;
-        font: bold 12px/24px arial, helvetica, sans-aerif;
-        padding: 0px;
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
-        background: rgb(0, 0, 0) no-repeat center center;
-        width: 120px;
-        height: 24px;
-      }
-
-      .posicao-proximo {
-        border-radius: 10%;
-        position: absolute;
-        top: 750px;
-        left: 650px;
-        margin: 0px;
-        font: bold 12px/24px arial, helvetica, sans-aerif;
-        padding: 0px;
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
-        background: rgb(0, 0, 0) no-repeat center center;
-        width: 120px;
-        height: 24px;
-      }
-
-      .dark-mode {
-        background-color: black;
-        color: white;
-      }
-    </style>
+    <style></style>
   </head>
 
   <body>
-    <!-- Imagem de Perfil -->
-    <img
-      align="left"
-      style="border-radius: 50%"
-      src="Rafael Rocha.jpg"
-      alt="Rafael Rocha Souza"
-      width="150px"
-    />
-    <!-- Botão Dark Mode -->
-    <div>
-      <button onclick="darkMode()" id="posicao-dark">Modo Escuro</button>
-    </div>
+    <header class="cabecalho">
+      <div>
+        <button onclick="darkMode()" class="button-dark">Modo Noturno</button>
+      </div>
 
-    <script>
-      function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-      }
-    </script>
+      <script>
+        function darkMode() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+      </script>
 
-    <!-- Título e Nome -->
-    <h1>Portfólio Web</h1>
-    <h2>Rafael Rocha Souza</h2>
+      <nav class="cabecalho-menu">
+        <a class="cabecalho-item">Sobre Mim</a>
+        <a class="cabecalho-item">Projetos</a>
+        <a href="#Tec" class="cabecalho-item">Tecnologias</a>
+      </nav>
+    </header>
 
-    <!-- Sobre mim/Texto -->
-    <h3>Sobre Mim:</h3>
+    <main class="mainmenu">
+      <!-- Imagem de Perfil -->
+      <img
+        align="left"
+        style="border-radius: 50%"
+        src="Rafael Rocha.jpg"
+        alt="Rafael Rocha Souza"
+        width="250px"
+      />
 
-    <p>
-      Me chamo Rafael Rocha, tenho 18 anos e amo tecnologia e esportes! <br />
-      Tenho uma paixão por hardwares e eletrônica e me sinto muito bem mudando
-      de cenário com a trybe.<br />
-      No meu tempo livre gosto de praticar esportes, todo final de semana
-      pratico trekking na minha região. <br />
-      Também gosto de assitir filmes e séries!<br />
-      Meu blog favorito é o
-      <a href="https://www.clubedohardware.com.br" target="_blank">
-        <b>Clube Do Hardware</b>
-      </a>
+      <!-- Sobre mim/Texto -->
+      <h3>Sobre Mim:</h3>
+      <section class="text">
+        <p>
+          Me chamo Rafael Rocha, tenho 18 anos e amo tecnologia e esportes!
+          <br />
+          Tenho uma paixão por hardwares e eletrônica e me sinto muito bem
+          mudando de cenário com a trybe.<br />
+          No meu tempo livre gosto de praticar esportes, todo final de semana
+          pratico trekking na minha região. <br />
+          Também gosto de assitir filmes e séries!<br />
+          Meu blog favorito é o
+          <a href="https://www.clubedohardware.com.br" target="_blank">
+            <b>Clube Do Hardware</b>
+          </a>
+          <br />
+          Campos Dos Goytacazes - RJ <br />
+        </p>
+      </section>
+
+      <section class="redes-sociais">
+        <!-- Redes Sociais -->
+        <h3>Redes Sociais:</h3>
+        <div>
+          <a href="https://www.linkedin.com/in/rafael-rocha/" target="_blank"
+            ><img
+              src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+              target="_blank"
+          /></a>
+          <a href="https://github.com/RafaelRRhocha" target="_blank"
+            ><img
+              src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+              target="_blank"
+          /></a>
+          <a href="mailto:1rafaelrocha2@gmail.com"
+            ><img
+              src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
+              target="_blank"
+          /></a>
+          <a href="https://www.instagram.com/rafaelrhocha/" target="_blank"
+            ><img
+              src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+              target="_blank"
+          /></a>
+          <a href="https://steamcommunity.com/id/GoldenCooler/" target="_blank"
+            ><img
+              src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"
+              target="_blank"
+          /></a>
+        </div>
+      </section>
+
       <br />
-      Campos Dos Goytacazes - RJ <br />
-    </p>
 
-    <!-- Redes Sociais -->
-    <h3>Minhas Redes Sociais:</h3>
-    <div>
-      <a href="https://www.linkedin.com/in/rafael-rocha/" target="_blank"
-        ><img
-          src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-          target="_blank"
-      /></a>
-      <a href="https://github.com/RafaelRRhocha" target="_blank"
-        ><img
-          src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-          target="_blank"
-      /></a>
-      <a href="mailto:1rafaelrocha2@gmail.com"
-        ><img
-          src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-          target="_blank"
-      /></a>
-      <a href="https://www.instagram.com/rafaelrhocha/" target="_blank"
-        ><img
-          src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-          target="_blank"
-      /></a>
-      <a href="https://steamcommunity.com/id/GoldenCooler/" target="_blank"
-        ><img
-          src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"
-          target="_blank"
-      /></a>
-    </div>
+      <section class="tecnologias">
+        <!-- Logos Linguagens -->
+        <h3 id="Tec">Tecnologias E Linguagens:</h3>
+        <div style="display: inline_block">
+          <img
+            alt="Rafa-Git"
+            height="40"
+            width="50"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          />
+          <img
+            alt="Rafa-CSS"
+            height="40"
+            width="50"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+          />
+          <img
+            alt="Rafa-HTML"
+            height="40"
+            width="50"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+          />
+          <img
+            alt="Rafa-Js"
+            height="40"
+            width="50"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+          />
+          <img
+            alt="Rafa-React"
+            height="40"
+            width="50"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+          />
+          <img
+            alt="Rafa-Python"
+            height="40"
+            width="50"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+          />
+        </div>
+      </section>
 
-    <!-- Logos Linguagens -->
-    <h3>Tecnologias E Linguagens:</h3>
-    <div style="display: inline_block">
-      <img
-        align="left"
-        alt="Rafa-Git"
-        height="30"
-        width="40"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-      />
-      <img
-        align="left"
-        alt="Rafa-CSS"
-        height="30"
-        width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-      />
-      <img
-        align="left"
-        alt="Rafa-HTML"
-        height="30"
-        width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-      />
-      <img
-        align="left"
-        alt="Rafa-Js"
-        height="30"
-        width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-      />
-      <img
-        align="left"
-        alt="Rafa-React"
-        height="30"
-        width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-      />
-      <img
-        align="left"
-        alt="Rafa-Python"
-        height="30"
-        width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-      />
-    </div>
+      <br />
 
-    <br />
+      <section>
+        <h3>Projetos:</h3>
+      </section>
 
-    <!-- Testes -->
-    <a class="posicao-anterior" href="https://www.google.com.br" target="">
-      Anterior
-    </a>
-    <a
-      class="posicao-proximo"
-      href="https://www.google.com/logos/2010/pacman10-i.html"
-      target="_blank"
-    >
-      Próximo</a
-    >
-    <br />
+      <br />
+
+      <!-- Testes -->
+      <a class="posicao-anterior" href="https://www.google.com.br" target="">
+        Anterior
+      </a>
+      <a
+        class="posicao-proximo"
+        href="https://www.google.com/logos/2010/pacman10-i.html"
+        target="_blank"
+      >
+        Próximo</a
+      >
+      <br />
+    </main>
+
+    <footer></footer>
   </body>
 </html>

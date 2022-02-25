@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-item {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.button-dark {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 180px;
+    height: 40px;
+    border: none;
+    box-shadow:  1px 1px 2px 1px rgb(0, 0, 0.25);
+    font-family: Kanit, sans-serif;
+    font-size: 90%;
+    align-items: center;
+
+}
+
+.mainmenu {
+    padding: 20px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+.redes-sociais {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.tecnologias {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+body {
+  font-family: Kanit, sans-serif;
+  background-color: #fffafa;
+  color: black;
+  font-size: 25px;
+}
+
+p {
+  font-family: Josefin Sans, sans-serif;
+  text-align: unset;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+}
+
+
+.posicao-anterior {
+  border-radius: 10%;
+  position: absolute;
+  top: 750px;
+  left: 500px;
+  margin: 0px;
+  font: bold 12px/24px arial, helvetica, sans-aerif;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background: rgb(0, 0, 0) no-repeat center center;
+  width: 120px;
+  height: 24px;
+}
+
+.posicao-proximo {
+    border-radius: 10%;
+    position: absolute;
+    top: 750px;
+    left: 650px;
+    margin: 0px;
+    font: bold 12px/24px arial, helvetica, sans-aerif;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: rgb(0, 0, 0) no-repeat center center;
+    width: 120px;
+    height: 24px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
