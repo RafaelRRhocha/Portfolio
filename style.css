@@ -33,7 +33,10 @@
     font-family: Kanit, sans-serif;
     font-size: 90%;
     align-items: center;
+}
 
+.button-dark:hover {
+    background-color: #777777;
 }
 
 .mainmenu {
@@ -51,17 +54,23 @@
     }
 
 .redes-sociais {
-    padding-top: 100px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
 }
 
 .tecnologias {
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -83,7 +92,7 @@ p {
 .posicao-anterior {
   border-radius: 10%;
   position: absolute;
-  top: 750px;
+  top: 950px;
   left: 500px;
   margin: 0px;
   font: bold 12px/24px arial, helvetica, sans-aerif;
@@ -99,7 +108,7 @@ p {
 .posicao-proximo {
     border-radius: 10%;
     position: absolute;
-    top: 750px;
+    top: 950px;
     left: 650px;
     margin: 0px;
     font: bold 12px/24px arial, helvetica, sans-aerif;
