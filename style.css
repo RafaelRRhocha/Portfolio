@@ -5,10 +5,20 @@
   text-decoration: none;
 }
 
+body {
+  font-family: Kanit, sans-serif;
+  background-color: black;
+  /* background-image: url("icons/rainbow-gif.gif"); */
+  background-size: 100%;
+  color: white;
+  font-size: 1.6rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+/* Cabeçalho */
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -28,18 +38,18 @@ html {
   gap: 30px;
 }
 
+/* Conteúdo Principal */
 .mainmenu {
+  border-top: 0.4px solid white;
   text-align: center;
   padding: 20px;
   margin-bottom: 48px;
-  border-top: 0.4px solid white;
 }
 
 .text {
   padding-top: 560px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   font-family: Josefin Sans, sans-serif;
   text-align: start;
   letter-spacing: -1px;
@@ -49,7 +59,6 @@ html {
 }
 
 .redes-sociais {
-  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,15 +84,12 @@ html {
 .projetos {
   padding-top: 80px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
-body {
-  font-family: Kanit, sans-serif;
-  background-color: black;
-  /* background-image: url("icons/rainbow-gif.gif"); */
-  background-size: 100%;
-  color: white;
-  font-size: 1.6rem;
+.itens-projeto {
+  display: flex;
+  padding: 5%;
+  gap: 60px;
 }
