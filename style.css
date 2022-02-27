@@ -11,7 +11,7 @@ body {
   /* background-image: url("icons/rainbow-gif.gif"); */
   background-size: 100%;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.8em;
 }
 
 html {
@@ -29,7 +29,7 @@ html {
 
 .cabecalho-item {
   color: white;
-  font-size: 1.3rem;
+  font-size: 0.90em;
   font-weight: 400;
 }
 
@@ -38,16 +38,50 @@ html {
   gap: 30px;
 }
 
+.borda {
+  border-top: 0.4px solid white;
+}
+
+/* Rafael Rocha Nome */
+.rafael-nome {
+  padding-top: 10%;
+  font-size: 3.5em;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: escrevendo 4s steps(40) 1s 1 normal both,
+  cursor-escrevendo 500ms steps(40) infinite normal;
+}
+
+@keyframes escrevendo {
+  from {
+        width: 0;
+  }
+  to {
+        width: 9em;
+  }
+}
+
+@keyframes cursor-escrevendo {
+  from {
+        border-right-color: whitesmoke;
+  }
+  to {
+        border-right-color: transparent;
+  }
+}
+
 /* Conteúdo Principal */
 .mainmenu {
-  border-top: 0.4px solid white;
   text-align: center;
   padding: 20px;
   margin-bottom: 48px;
 }
 
 .text {
-  padding-top: 560px;
+  padding-top: 162px;
   display: flex;
   flex-direction: column;
   font-family: Josefin Sans, sans-serif;
