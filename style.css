@@ -104,11 +104,7 @@ html {
 .formacoes {
   padding-top: 60px;
   display: inline-block;
-  flex-direction: column;
-  justify-content: space-around;
-  overflow: hidden;
 }
-
 .formacoes img {
   max-width: 100%;
 	-moz-transition: all 0.3s;
