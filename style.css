@@ -41,10 +41,6 @@ html {
   gap: 45px;
 }
 
-.borda {
-  border-top: 0.4px solid white;
-}
-
 /* Rafael Rocha Nome */
 .rafael-nome {
   padding-top: 10%;
@@ -94,6 +90,7 @@ html {
   word-spacing: -1px;
   max-width: 60%;
   margin: auto;
+  color: white;
 }
 
 /* Redes Sociais, configs */
