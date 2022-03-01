@@ -41,9 +41,18 @@ html {
   gap: 45px;
 }
 
+.img-rafa {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 550px;
+  left: 75px;
+}
+
 /* Ajustes Aba de música */
 .music {
-  padding-left: 15px;
+  position: absolute;
+  bottom: 4400 px;
+  left: 20px;
 }
 
 /* Rafael Rocha Nome */
