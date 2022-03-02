@@ -1,11 +1,15 @@
 @media (max-width: 728px) {
-  
 }
+  
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,10 +19,6 @@ body {
   background-size: 100%;
   color: white;
   font-size: 1.8em;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 /* Cabeçalho */
@@ -44,6 +44,7 @@ html {
 .img-rafa {
   border-radius: 50%;
   position: absolute;
+  top: 18px;
   bottom: 550px;
   left: 75px;
 }
