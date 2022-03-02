@@ -5,11 +5,14 @@
   text-decoration: none;
 }
 
+p {
+  color: white;
+}
 html {
   scroll-behavior: smooth;
 }
 
-body {
+body{
   font-family: Kanit, sans-serif;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
@@ -127,8 +130,15 @@ body {
 
 /* Formações, configs */
 .formacoes {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   padding-top: 60px;
+  padding-left: 50px;
+}
+
+.itens-formacoes {
+  display: flex;
+  gap: 80px
 }
 
 /* Tecnologias, configs */
