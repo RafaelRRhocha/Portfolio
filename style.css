@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   font-family: Kanit, sans-serif;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
@@ -27,7 +27,7 @@ body{
 
 .cabecalho-item {
   color: white;
-  font-size: 0.90em;
+  font-size: 0.9em;
   font-weight: 400;
 }
 
@@ -64,26 +64,26 @@ html {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-  
+
   animation: escrevendo 4s steps(40) 1s 1 normal both,
-  cursor-escrevendo 500ms steps(40) infinite normal;
+    cursor-escrevendo 500ms steps(40) infinite normal;
 }
 
 @keyframes escrevendo {
   from {
-        width: 0;
+    width: 0;
   }
   to {
-        width: 9em;
+    width: 9em;
   }
 }
 
 @keyframes cursor-escrevendo {
   from {
-        border-right-color: whitesmoke;
+    border-right-color: whitesmoke;
   }
   to {
-        border-right-color: transparent;
+    border-right-color: transparent;
   }
 }
 
@@ -113,14 +113,14 @@ p {
 /* Zoom para Todos os elementos img que vão vir no código a seguir */
 .zoom img {
   max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .zoom:hover img {
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Redes Sociais, configs */
@@ -139,7 +139,7 @@ p {
 
 .itens-formacoes {
   display: flex;
-  gap: 80px
+  gap: 80px;
 }
 
 /* Tecnologias, configs */
@@ -153,17 +153,21 @@ p {
 
 /* Projetos, configs */
 .projetos {
-  padding-top: 80px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-
+.img-1, .img-2 {
+  margin: 55px;
+}
 .zoom-projetos img {
   max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .zoom-projetos:hover img {
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
