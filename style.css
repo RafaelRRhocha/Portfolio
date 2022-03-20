@@ -160,6 +160,30 @@ p {
 .img-1, .img-2 {
   margin: 55px;
 }
+
+[data-tooltip] {
+  position: relative;
+  font-weight: bolder;
+  font-size: 90%;
+}
+
+[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  top: -220px;
+  padding: 5px;
+  border-radius: 20px;
+  left: 15%;
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  background-color: #20B2AA;
+  color: White;
+}
+
+[data-tooltip]:hover:after {
+  display: block;
+}
+
 .zoom-projetos img {
   max-width: 100%;
   -moz-transition: all 0.3s;
