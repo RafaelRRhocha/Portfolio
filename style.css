@@ -93,7 +93,7 @@ html {
   padding: 20px;
 }
 
-p {
+p, a {
   color: white;
 }
 
