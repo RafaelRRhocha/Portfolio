@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
+:root {
+  --principal: #000000;
+  --principalHover: #83C1B7;
+  --principalTexto: #E8F3F1;
+  --principalTip: #344B47;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +16,19 @@
 
 body {
   font-family: Kanit, sans-serif;
-  background-color: black;
-  color: white;
+  background-color: var(--principal);
+  color: var(--principalTexto);
   font-size: 1.8em;
 }
 
 p, a, h1 {
-  color: white;
+  color: var(--principalTexto);
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
-  color: white;
+  color: var(--principalTexto);
 }
 
 html {
@@ -42,31 +49,37 @@ html {
   margin: auto;
 }
 
-.cabecalho-item {
-  font-size: 0.9em;
+.cabecalho-menu a {
+  color: #ffffff;
+  font-size: 1.8rem;
   font-weight: 400;
+  line-height: 2.5;
+  font-weight: bolder;
 }
 
-.music {
-  display: flex;
-  max-width: 17%;
-  padding: 1%;
-  align-items: center;
-  flex-direction: column;
-  order: -1;
+.cabecalho-menu a:hover {
+  color: var(--principalHover);
+  transition: all 0.6s ease-in-out;
 }
 
-.music img {
-  display: flex;
-  border-radius: 50%;
-  padding: 2px;
-  width: 95px;
+.cabecalho-menu a::after {
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.6s, opacity 0.8s;
+}
+
+.cabecalho-menu a:hover::after{
+  width: 100%;
 }
 
 /* Rafael Rocha Animação Do Nome */
 .rafael-nome {
   padding: 4%;
-  font-size: 3.5em;
+  font-size: 7rem;
   text-align: center;
   margin: 0 auto;
   white-space: nowrap;
@@ -94,7 +107,7 @@ html {
 /* Sobre Mim */
 .text {
   display: flex;
-  padding-top: 4%;
+  padding-top: 10%;
   font-family: Josefin Sans, sans-serif;
   text-align: start;
   letter-spacing: -1px;
@@ -177,11 +190,12 @@ html {
 [data-tooltip]:after {
   display: none;
   position: absolute;
-  padding: 1%;
+  width: 140px;
+  height: 40px;
   border-radius: 20px;
-  left: 15%;
+  left: 6%;
   content: attr(data-tooltip);
-  background-color: #20B2AA;
+  background-color: var(--principalTip);
   color: White;
 }
 
@@ -192,11 +206,12 @@ html {
 .rodape {
   display: flex;
   flex-direction: column;
-  padding-top: 5%;
+  padding-top: 8%;
   max-width: 100%;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .rodape img {
-  width: 80px;
+  width: 70px;
 }
