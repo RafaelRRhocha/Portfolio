@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --principal: #000000;
-  --principalHover: #83C1B7;
-  --principalTexto: #E8F3F1;
-  --principalTip: #344B47;
+  --principal: #17191B;
+  --principalHover: #E09F1F;
+  --principalTexto: #E3E6C3;
+  --principalTip: #81253A;
+  --light: #fff;
 }
 
 * {
@@ -19,6 +20,7 @@ body {
   background-color: var(--principal);
   color: var(--principalTexto);
   font-size: 1.8em;
+  text-align: center;
 }
 
 p, a, h1 {
@@ -50,7 +52,6 @@ html {
 }
 
 .cabecalho-menu a {
-  color: #ffffff;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.5;
@@ -93,6 +94,19 @@ html {
   }
   to {
     width: 9em;
+  }
+}
+
+/* Icone de rolldown */
+.fa.icone {
+  font-size: 5rem;
+  opacity: 1;
+  animation: anima 1500ms ease infinite;
+}
+@keyframes anima {
+  to {
+      opacity: 0.1;
+      transform: scale(0.85) translateY(20px);
   }
 }
 
