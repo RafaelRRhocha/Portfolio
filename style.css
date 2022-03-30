@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
   font-family: Kanit, sans-serif;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  background-image: url("icons/rainbow-gif-cortado.gif");
-  background-size: 100%;
+  background-color: black;
   color: white;
   font-size: 1.8em;
+}
+
+p, a, h1 {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Cabeçalho */
@@ -22,51 +34,44 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 15px;
-}
-
-.cabecalho-item {
-  color: white;
-  font-size: 0.9em;
-  font-weight: 400;
 }
 
 .cabecalho-menu {
   display: flex;
   gap: 45px;
+  margin: auto;
 }
 
-.img-rafa {
-  border-radius: 50%;
-  position: absolute;
-  top: 18px;
-  bottom: 550px;
-  left: 75px;
+.cabecalho-item {
+  font-size: 0.9em;
+  font-weight: 400;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* Ajustes Aba de música */
 .music {
-  position: absolute;
-  bottom: 4400 px;
-  left: 20px;
+  display: flex;
+  max-width: 17%;
+  padding: 1%;
+  align-items: center;
+  flex-direction: column;
+  order: -1;
+}
+
+.music img {
+  display: flex;
+  border-radius: 50%;
+  padding: 2px;
+  width: 95px;
 }
 
 /* Rafael Rocha Animação Do Nome */
 .rafael-nome {
-  padding-top: 4%;
+  padding: 4%;
   font-size: 3.5em;
   text-align: center;
-  justify-content: center;
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-
-  animation: escrevendo 4s steps(40) 1s 1 normal both,
-  cursor-escrevendo 500ms steps(40) infinite normal;
+  animation: escrevendo 4s steps(40) 1s 1 normal both;
 }
 
 @keyframes escrevendo {
@@ -78,15 +83,6 @@ html {
   }
 }
 
-@keyframes cursor-escrevendo {
-  from {
-    border-right-color: whitesmoke;
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
 /* Conteúdo Principal */
 .mainmenu {
   display: flex;
@@ -95,23 +91,15 @@ html {
   padding: 20px;
 }
 
-p, a {
-  color: white;
-}
-
-h1 {
-  padding: 3%;
-}
-
 /* Sobre Mim */
 .text {
-  padding-top: 162px;
   display: flex;
+  padding-top: 4%;
   font-family: Josefin Sans, sans-serif;
   text-align: start;
   letter-spacing: -1px;
   word-spacing: -1px;
-  max-width: 728px;
+  max-width: 72%;
   margin: auto;
 }
 
@@ -130,16 +118,27 @@ h1 {
 
 /* Redes Sociais, configs */
 .redes-sociais {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  padding: 9%;
   align-items: center;
+}
+
+.redes-sociais img {
+  width: 80px;
 }
 
 /* Formações, configs */
 .formacoes {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  padding-top: 60px;
-  padding-left: 50px;
+  font-weight: bolder;
+}
+
+.formacoes img {
+  width: 240px;
+  height: 180px;
 }
 
 .itens-formacoes {
@@ -149,20 +148,23 @@ h1 {
 
 /* Tecnologias, configs */
 .tecnologias {
-  padding-top: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  padding: 9%;
 }
 
 /* Projetos, configs */
 .projetos {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  padding: 9%;
 }
-.img-1, .img-2 {
+
+.projetos img {
+  width: 160px;
+  height: 180px;
+}
+.img {
   margin: 55px;
 }
 
@@ -175,12 +177,10 @@ h1 {
 [data-tooltip]:after {
   display: none;
   position: absolute;
-  top: -220px;
-  padding: 5px;
+  padding: 1%;
   border-radius: 20px;
   left: 15%;
   content: attr(data-tooltip);
-  white-space: nowrap;
   background-color: #20B2AA;
   color: White;
 }
@@ -189,10 +189,14 @@ h1 {
   display: block;
 }
 
-/* .rodape {
-  margin-top: 10%;
-  padding: 10px;
-  height: 50px;
+.rodape {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  max-width: 100%;
   text-align: center;
-  color: white;
-} */
+}
+
+.rodape img {
+  width: 80px;
+}
