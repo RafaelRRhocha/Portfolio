@@ -191,6 +191,11 @@ html {
   width: 160px;
   height: 180px;
 }
+
+.imgs {
+  padding: 18px;
+}
+
 .img {
   margin: 55px;
 }
@@ -208,6 +213,18 @@ html {
   height: 40px;
   border-radius: 20px;
   left: 6%;
+  content: attr(data-tooltip);
+  background-color: var(--principalTip);
+  color: var(--light);
+}
+
+.img-2[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  left: 15%;
   content: attr(data-tooltip);
   background-color: var(--principalTip);
   color: var(--light);
