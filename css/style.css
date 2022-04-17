@@ -200,6 +200,10 @@ html {
   margin: 55px;
 }
 
+.img-2 {
+  margin: 55px;
+}
+
 [data-tooltip] {
   position: relative;
   font-weight: bolder;
