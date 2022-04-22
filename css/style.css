@@ -193,15 +193,11 @@ html {
 }
 
 .imgs {
-  padding: 18px;
+  padding: 45px;
 }
 
 .img {
-  margin: 55px;
-}
-
-.img-2 {
-  margin: 55px;
+  margin: 60px;
 }
 
 [data-tooltip] {
