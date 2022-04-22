@@ -187,23 +187,19 @@ html {
   padding: 9%;
 }
 
-.projetos img {
-  width: 160px;
-  height: 180px;
-}
-
 .imgs {
   padding: 45px;
 }
 
 .img {
-  margin: 60px;
+  margin: 55px;
 }
 
 [data-tooltip] {
   position: relative;
   font-weight: bolder;
-  font-size: 85%;
+  font-size: 80%;
+  text-align: center;
 }
 
 [data-tooltip]:after {
@@ -213,6 +209,33 @@ html {
   height: 40px;
   border-radius: 20px;
   left: 6%;
+  margin-top: 5%;
+  content: attr(data-tooltip);
+  background-color: var(--principalTip);
+  color: var(--light);
+}
+
+.img-2[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  left: 15%;
+  margin-top: -1%;
+  content: attr(data-tooltip);
+  background-color: var(--principalTip);
+  color: var(--light);
+}
+
+.img-2Ml[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  left: 8%;
+  margin-top: -1%;
   content: attr(data-tooltip);
   background-color: var(--principalTip);
   color: var(--light);
