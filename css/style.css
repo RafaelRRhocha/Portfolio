@@ -241,6 +241,11 @@ html {
   color: var(--light);
 }
 
+.zelda img{
+  position: relative;
+  left: 10px;
+}
+
 [data-tooltip]:hover:after {
   display: block;
 }
