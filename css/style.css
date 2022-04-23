@@ -228,24 +228,6 @@ html {
   color: var(--light);
 }
 
-.img-2Ml[data-tooltip]:after {
-  display: none;
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  border-radius: 20px;
-  left: 8%;
-  margin-top: -1%;
-  content: attr(data-tooltip);
-  background-color: var(--principalTip);
-  color: var(--light);
-}
-
-.zelda img{
-  position: relative;
-  left: 10px;
-}
-
 [data-tooltip]:hover:after {
   display: block;
 }
