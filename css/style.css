@@ -154,6 +154,10 @@ html {
 .redes-sociais img {
   width: 80px;
 }
+/* 
+.tecnologias {
+  display: flex;
+} */
 
 /* Formações, configs */
 .formacoes {
@@ -174,10 +178,16 @@ html {
 }
 
 /* Tecnologias, configs */
-.tecnologias {
-  display: flex;
-  flex-direction: column;
+#tecnologias {
   padding: 9%;
+}
+
+.tecnologias {
+  padding: 30px 0;
+}
+
+.ajustes {
+  margin: 40px;
 }
 
 /* Projetos, configs */
