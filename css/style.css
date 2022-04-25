@@ -201,7 +201,7 @@ html {
   padding: 45px;
 }
 
-.img {
+.img, .frames {
   margin: 55px;
 }
 
@@ -233,6 +233,19 @@ html {
   border-radius: 20px;
   left: 15%;
   margin-top: -1%;
+  content: attr(data-tooltip);
+  background-color: var(--principalTip);
+  color: var(--light);
+}
+
+.frames[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  left: -12%;
+  margin-top: 9%;
   content: attr(data-tooltip);
   background-color: var(--principalTip);
   color: var(--light);
