@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --principal: #17191B;
+  --principal: #000;
   --principalHover: #E09F1F;
-  --principalTexto: #E3E6C3;
+  --principalTexto: #fff;
   --principalTip: #81253A;
   --light: #fff;
 }
