@@ -1,13 +1,24 @@
+.png {
+  margin: 0 auto;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  padding: 9%;
+}
+
 .box-geral {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .box {
   position: relative;
   width: 310px;
-  height: 420px;
+  height: 425px;
   background-color: #141922;
   transition: 0.3s;
   overflow: hidden;

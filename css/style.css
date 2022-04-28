@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 :root {
-  --principal: #000;
-  --principalHover: #E09F1F;
-  --principalTexto: #fff;
+  --principal: #000312;
+  --principalHover: #2f80ed;
+  --principalTexto: #E6F4F1;
   --principalTip: #81253A;
   --light: #fff;
 }
@@ -190,20 +190,10 @@ html {
   margin: 40px;
 }
 
-/* Projetos, configs */
-.projetos {
-  display: flex;
-  flex-direction: row;
-  padding: 9%;
+.frames, .frames-2 {
+  margin: 45px;
 }
 
-.imgs {
-  padding: 45px;
-}
-
-.img, .frames {
-  margin: 55px;
-}
 
 [data-tooltip] {
   position: relative;
@@ -212,33 +202,20 @@ html {
   text-align: center;
 }
 
-[data-tooltip]:after {
-  display: none;
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  border-radius: 20px;
-  left: 6%;
-  margin-top: 5%;
-  content: attr(data-tooltip);
-  background-color: var(--principalTip);
-  color: var(--light);
-}
-
-.img-2[data-tooltip]:after {
-  display: none;
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  border-radius: 20px;
-  left: 15%;
-  margin-top: -1%;
-  content: attr(data-tooltip);
-  background-color: var(--principalTip);
-  color: var(--light);
-}
-
 .frames[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  left: -3%;
+  margin-top: 9%;
+  content: attr(data-tooltip);
+  background-color: var(--principalTip);
+  color: var(--light);
+}
+
+.frames-2[data-tooltip]:after {
   display: none;
   position: absolute;
   width: 140px;

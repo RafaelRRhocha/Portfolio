@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -42,8 +42,8 @@
 
       <section class="rafael-nome">
         <p>
-          Rafael <span style="color: #fcc277">Rocha.</span><br />
-          Web <span style="color: #fcc277">Developer</span> <br />
+          Rafael <span style="color: #00A9FF">Rocha.</span><br />
+          Web <span style="color: #00A9FF">Developer</span> <br />
         </p>
       </section>
 
@@ -205,16 +205,42 @@
           <h1><strong>Most used Languages:</strong></h1>
           <div>
             <img height="180px"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelRRhocha&theme=great-gatsby&bg_color=000&border_color=000&hide_title=true&layout=compact"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelRRhocha&theme=great-gatsby&bg_color=000312&border_color=000312&hide_title=true&layout=compact"
             />
           </div> <br />
 
-          <h1><strong>Frameworks:</strong></h1>
+          <h1><strong>Frameworks:</strong></h1> <br>
           <div class="tecnologias">
             <nav>
               <a
-              data-tooltip="Jest"
+              data-tooltip="Bootstrap"
               class="zoom frames"
+              href="https://getbootstrap.com"
+              target="_blank"
+            >
+              <img
+                src="icons/bootstrap.svg"
+                alt="Bootstrap"
+                height="100px"
+              />
+            </a>
+
+            <a
+            data-tooltip="Kaboom.js"
+            class="zoom frames"
+            href="https://kaboomjs.com"
+            target="_blank"
+          >
+            <img
+              src="icons/kaboom.png"
+              alt="kaboom"
+              height="120px"
+            />
+          </a>
+
+              <a
+              data-tooltip="Jest"
+              class="zoom frames-2"
               href="https://jestjs.io/pt-BR/docs/getting-started"
               target="_blank"
             >
@@ -227,7 +253,7 @@
 
             <a
             data-tooltip="React"
-            class="zoom frames"
+            class="zoom frames-2"
             href="https://pt-br.reactjs.org/docs/getting-started.html"
             target="_blank"
           >
@@ -237,10 +263,12 @@
               height="100px"
             />
           </a>
+        </nav>
 
+        <!-- <nav>
           <a
           data-tooltip="Redux"
-          class="zoom frames"
+          class="zoom frames-2"
           href="https://redux.js.org"
           target="_blank"
         >
@@ -250,26 +278,25 @@
             height="100px"
           />
         </a>
-            </nav>
+        </nav> -->
           </div>
         </section>
 
         <!-- Projetos-->
         <section class="Projetos" id="projetos">
           <h1><strong>Projects:</strong></h1>
-          <br />
           <nav class="box-geral">
             <div class="box">
               <div class="text-content">
                 <img height="60px" src="icons/pokebola-icon.svg" alt="">
                 <h2>Pokedex</h2>
                 <p>
-                  Pokedex Feita usando a PokeApi.
-                  Projeto que lista todos os
-                  Pokemon da Região de Kanto.
-                  <strong>Tecnologias Usadas:</strong> <br> Html, Css, Js
+                  Pokedex Made using the PokeApi.
+                  Project that lists all Pokemon 
+                  From the Kanto Region.
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js
                 </p>
-                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/Pokedex/">Veja Mais</a>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/Pokedex/">See More</a>
               </div>
             </div>
 
@@ -278,13 +305,13 @@
                 <img height="60px" src="icons/pixel-icon.svg" alt="">
                 <h2>Pixel Art</h2>
                 <p>
-                  Projeto que simula um 'quadro'
-                  de desenhos, onde pode se alterar
-                  o tamanho do quadro, as cores e
-                  personalizar o quadro como bem entender. <br>
-                  <strong>Tecnologias Usadas:</strong> <br> Html, Css, Js, Jest
+                  Project that simulates a 'frame'
+                  of drawings, where you can change
+                  the frame size, colors and
+                  customize the frame as you see fit. <br>
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js, Jest
                 </p>
-                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/02-PixelArt/">Veja Mais</a>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/02-PixelArt/">See More</a>
               </div>
             </div>
 
@@ -293,97 +320,105 @@
                 <img height="60px" src="icons/agenda-icon.svg" alt="">
                 <h2>To-Do List</h2>
                 <p>
-                  Uma lista de Tarefas com diversas
-                  Funcionalidades, desde adicionar
-                  conteúdo, remover, remover selecionado
-                  e salvar no navegador.
-                  <strong>Tecnologias Usadas:</strong> <br> Html, Css, Js, Jest
+                  A list of Tasks with various
+                  Features, from adding
+                  content, remove, remove selected
+                  and save in browser.
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js, Jest, Bootstrap
                 </p>
-                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/03-listaDeTarefas/">Veja Mais</a>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/03-listaDeTarefas/">See More</a>
+              </div>
+            </div>
+          </nav>
+
+          <nav class="box-geral">
+            <div class="box">
+              <div class="text-content">
+                <img height="60px" src="icons/color.svg" alt="">
+                <h2>Color Guess</h2>
+                <p>
+                  Project that simulates a game of
+                  colors, in which the aim is to
+                  hit the color in the corresponding frame
+                  to the RGB name.
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js, Jest, Bootstrap
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/04-ColorGuess/">See More</a>
               </div>
             </div>
 
+            <div class="box">
+              <div class="text-content">
+                <img height="60px" src="icons/trybewarts-colored.svg" alt="">
+                <h2>TrybeWarts</h2>
+                <p>
+                  Complete form for the purpose
+                  to get user information and
+                  send to a database. <br>
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js, Jest, Bootstrap
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/05-Trybewarts/">See More</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="text-content">
+                <img height="60px" src="icons/carrinho.svg" alt="">
+                <h2>Shopping Cart</h2>
+                <p>
+                  Full shopping cart,
+                  simulation of purchase in a store
+                  online, working with requisition
+                  of API. <br>
+                  <strong>Technologies Used:</strong> <br> Html, Css, Js, Jest, Bootstrap
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/#/">See More</a>
+              </div>
+            </div>
           </nav>
-          <nav class="imgs">
-            <a
-            data-tooltip="Color Guess"
-            class="zoom img img-2"
-            href="https://rafaelrrhocha.github.io/Projetos/04-ColorGuess/"
-            target="_blank"
-          >
-            <img
-              src="icons/color.svg"
-              alt="color guess"
-              width="180"
-              height="180"
-            />
-          </a>
-            <a
-              data-tooltip="Formulário"
-              class="zoom img img-2"
-              href="https://rafaelrrhocha.github.io/Projetos/05-Trybewarts/"
-              target="_blank"
-            >
-              <img
-                src="icons/trybewarts-colored.svg"
-                alt="forms"
-                width="180"
-                height="180"
-              />
-            </a>
-            <a
-            data-tooltip="Clone Ml"
-            class="zoom img"
-            href="https://rafaelrrhocha.github.io/Projetos/linkaq/"
-            target="_blank"
-          >
-            <img
-              src="icons/carrinho.svg"
-              alt="shopping cart"
-              width="140"
-              height="140"
-            />
-          </a>
-          </nav>
-          <nav class="imgs">
-            <a
-            data-tooltip="Super Mario"
-            class="zoom img"
-            href="https://rafaelrrhocha.github.io/Projetos/superMario/"
-            target="_blank"
-          >
-            <img
-              src="icons/mario.svg"
-              alt="mario"
-              width="160"
-              height="160"
-            />
-          </a>
-            <a
-              data-tooltip="Bomberman"
-              class="zoom img"
-              href="https://rafaelrrhocha.github.io/Projetos/bomberman/"
-              target="_blank"
-            >
-              <img
-                src="icons/bomberman.png"
-                alt="bomberman"
-                width="160"
-                height="160"
-              />
-              <a
-              data-tooltip="Zelda-1986"
-              class="zoom img zelda"
-              href="https://rafaelrrhocha.github.io/Projetos/zelda-1986/"
-              target="_blank"
-            >
-              <img
-                src="icons/zelda-img.png"
-                alt="zelda-img"
-                width="150"
-                height="140"
-              />
-            </a>
+
+          <nav class="box-geral">
+            <div class="box">
+              <div class="text-content">
+                <img height="60px" src="icons/mario.svg" alt="">
+                <h2>Super Mario</h2>
+                <p>
+                  A little retelling of the first
+                  mario game made with
+                  Pure JavaScript.
+                  <strong>Technologies Used:</strong> <br> Js, Kaboom.js
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/superMario/">See More</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="text-content">
+                <img class="png" height="60px" width="60px" src="icons/bomberman.png" alt="">
+                <h2>Bomberman</h2>
+                <p>
+                  A small retelling of one of the
+                  Bomberman franchise games.
+                  Made with pure JavaScript. <br>
+                  <strong>Technologies Used:</strong> <br> Js, Kaboom.js
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/bomberman/">See More</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="text-content">
+                <img class="png" height="60px" width="60px" src="icons/zelda-img.png" alt="">
+                <h2>Zelda 1986</h2>
+                <p>
+                  Game based minigame
+                  1986 Zelda,
+                  Made with pure JavaScript. <br>
+                  <strong>Technologies Used:</strong> <br> Js, Kaboom.js
+                </p>
+                <a target="_blank" href="https://rafaelrrhocha.github.io/Projetos/zelda-1986/">See More</a>
+              </div>
+            </div>
           </nav>
         </section>
       </main>
