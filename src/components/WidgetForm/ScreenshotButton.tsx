@@ -32,7 +32,7 @@ export function ScreenshotButton({ onScreen, screen }: screenshotProps) {
       }}
       >
 
-       <Trash weight="fill" className=""/>
+       <Trash weight="fill" className="text-base"/>
       </button>
     );
   }

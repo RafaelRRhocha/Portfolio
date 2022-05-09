@@ -1,6 +1,6 @@
 export function AboutMe() {
   return (
-    <section className='text' id='sobre-mim'>
+    <section className='text margin-auto' id='sobre-mim'>
       <article>
         <h1 className='text-4xl'>
           <strong>About Me:</strong>
