@@ -23,7 +23,7 @@ export function FeedbackSucess({feedbackRestart }: feedbackSuccessRequest) {
     <button
       type="button"
       onClick={feedbackRestart}
-      className="py-2 px-6 mt-6 bg-zinc-800 rounded-md border-transparent text-sm leading-6 hover:bg-zinc-700 transition-colors focus:border-brand-400 focus:ring-brand-400 focus:ring-1 focus:outline-none resize-none"
+      className="py-2 px-6 mt-6 bg-[#28364A] rounded-md border-transparent text-sm leading-6 hover:bg-[#57657B] transition-colors focus:border-brand-400 focus:ring-brand-400 focus:ring-1 focus:outline-none resize-none"
     >
       I want to send another
     </button>
