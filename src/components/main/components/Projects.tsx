@@ -21,7 +21,7 @@ export function Projects() {
             <h2>Pokedex</h2>
             <p>
               Pokedex Made using the PokeApi. Project that lists all Pokemon
-              From the Kanto Region.
+              From the Kanto Region. <br />
               <strong>Technologies Used:</strong> <br /> Html, Css, Js
             </p>
             <a
@@ -58,7 +58,7 @@ export function Projects() {
             <h2>To-Do List</h2>
             <p>
               A list of Tasks with various Features, from adding content,
-              remove, remove selected and save in browser.
+              remove, remove selected and save in browser. <br />
               <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest,
               Bootstrap
             </p>
@@ -79,7 +79,7 @@ export function Projects() {
             <h2>Color Guess</h2>
             <p>
               Project that simulates a game of colors, in which the aim is to
-              hit the color in the corresponding frame to the RGB name.
+              hit the color in the corresponding frame to the RGB name. <br />
               <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest,
               Bootstrap
             </p>
@@ -138,7 +138,7 @@ export function Projects() {
             <h2>Super Mario</h2>
             <p>
               A little retelling of the first mario game made with Pure
-              JavaScript.
+              JavaScript. <br />
               <strong>Technologies Used:</strong> <br /> Js, Kaboom.js
             </p>
             <a
