@@ -1,3 +1,4 @@
+import React from 'react';
 import agenda from '../../../assets/icons/agenda-icon.svg';
 import bomberman from '../../../assets/icons/bomberman.png';
 import carrinho from '../../../assets/icons/carrinho.svg';
@@ -7,6 +8,9 @@ import pixel from '../../../assets/icons/pixel-icon.svg';
 import pokebola from '../../../assets/icons/pokebola-icon.svg';
 import trybewarts from '../../../assets/icons/trybewarts-colored.svg';
 import zelda from '../../../assets/icons/zelda-img.png';
+import cards from '../../../assets/icons/cards.svg';
+import musics from '../../../assets/icons/musics.svg';
+import carts from '../../../assets/icons/carts.svg';
 
 export function Projects() {
   return (
@@ -134,8 +138,73 @@ export function Projects() {
       <nav className='box-geral'>
         <div className='box'>
           <div className='text-content'>
-            <img src={mario} alt='mario' className='h-14' />
-            <h2>Super Mario</h2>
+            <img src={cards} alt='color' className='h-14' />
+            <h2>Card Generator</h2>
+            <p>
+              A project that the user can define name, description, properties,
+              image and set as a favorite, all with a preview of what he is
+              doing, after which it can be added and filtered.
+              <br />
+              <strong>Technologies Used:</strong> <br /> React, Jest
+            </p>
+            <a
+              target='_blank'
+              href='https://rafaelrrhocha-cards-generator.vercel.app'
+            >
+              See More
+            </a>
+          </div>
+        </div>
+
+        <div className='box'>
+          <div className='text-content'>
+            <img src={musics} alt='PreviewTunes' className='h-14' />
+            <h2>PreviewTunes</h2>
+            <p>
+              A project that the user can enter in the application, interact
+              between routes, listen to previews of songs by their favorite
+              artists and listen at will, favorite the songs and edit the
+              profile.
+              <br />
+              <strong>Technologies Used:</strong> <br /> React, React-Router,
+              Tailwind, Jest
+            </p>
+            <a
+              target='_blank'
+              href='https://rafaelrrhocha-trybe-tunes.vercel.app'
+            >
+              See More
+            </a>
+          </div>
+        </div>
+
+        <div className='box'>
+          <div className='text-content'>
+            <img src={carts} alt='carts' className='h-14' />
+            <h2>Online Store</h2>
+            <p>
+              An online store where the user can interact, select the product,
+              see which ones have free shipping, select by category and search
+              for products, as well as view details, cart and checkout.
+              <br />
+              <strong>Technologies Used:</strong> <br /> React, React-Router,
+              Tailwind, Jest
+            </p>
+            <a
+              target='_blank'
+              href='https://rafaelrrhocha.github.io/Projetos/shoppingCart/'
+            >
+              See More
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <nav className='box-geral'>
+        <div className='box'>
+          <div className='text-content'>
+            <img src={mario} alt='Online Store' className='h-14' />
+            <h2>Online Store</h2>
             <p>
               A little retelling of the first mario game made with Pure
               JavaScript. <br />

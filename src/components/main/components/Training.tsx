@@ -11,7 +11,7 @@ export function Training() {
       <nav className='itens-formacoes flex justify-center'>
         <a
           className='zoom'
-          href='https://drive.google.com/file/d/19CBUErmCBtMIa8FKlsoqO9uwyXgTfo9b/view?usp=sharing'
+          href='https://drive.google.com/file/d/1kvqlPQDmbvX_4H40O9n96eOTxLlLs4wn/view'
           target='_blank'
         >
           <img
