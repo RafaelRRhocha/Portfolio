@@ -159,7 +159,7 @@ export function Projects() {
         <div className='box'>
           <div className='text-content'>
             <img src={musics} alt='PreviewTunes' className='h-14' />
-            <h2>PreviewTunes</h2>
+            <h2>Preview Songs</h2>
             <p>
               A project that the user can enter in the application, interact
               between routes, listen to previews of songs by their favorite
