@@ -5,11 +5,11 @@ export function Infos() {
     <>
       <header className='flex align-center justify-around'>
         <nav className='cabecalho-menu flex gap-11 m-auto'>
-          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform' href='#sobre-mim'>About Me</a>
-          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform' href='#redes-sociais'>Social Networks</a>
-          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform' href='#formacoes'>Training</a>
-          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform' href='#tecnologias'>Technologies</a>
-          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform' href='#projetos'>Projects</a>
+          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform mobileHeader' href='#sobre-mim'>About Me</a>
+          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform mobileHeader' href='#redes-sociais'>Social Networks</a>
+          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform mobileHeader' href='#formacoes'>Training</a>
+          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform mobileHeader' href='#tecnologias'>Technologies</a>
+          <a className='leading-[2.5] font-semibold hover:text-[#61A6F4] transition-transform mobileHeader' href='#projetos'>Projects</a>
         </nav>
       </header>
 

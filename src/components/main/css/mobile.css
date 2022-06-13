@@ -1,45 +1,5 @@
 @media (max-width: 768px) {
-
-    .container {
-        width: 100vw;
-        margin: 0;
-    }
-
-    body {
-        font-size: 1.1rem;
-        max-width: 50%;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .redes-sociais img {
-        width: 50px;
-    }
-
-    .formacoes img {
-        width: 65px;
-        height: 50px;
-    }
-
-    .tecnologias img {
-        width: 50px;
-    }
-
-    .imgs img {
-        margin: 45px;
-    }
-      
-    .rodape img {
-        width: 50px;
-    }
-
-    .rodape {
-        font-size: 1rem;
-    }
-
-    .cabecalho, .rafael-nome {
+    .mobileHeader, .rafael-nome {
         display: none;
     }
 }

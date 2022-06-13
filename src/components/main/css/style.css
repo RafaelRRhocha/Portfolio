@@ -3,7 +3,7 @@
 
 :root {
   --principalHover: #2f80ed;
-  --principalTip: #81253A;
+  --principalTip: #144E66;
   --light: #fff;
 }
 
@@ -20,10 +20,6 @@ body {
 p, a, h1 {
   text-decoration: none;
   font-weight: 500;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 /* Cabeçalho */
@@ -120,19 +116,6 @@ html {
   height: 40px;
   border-radius: 20px;
   left: -3%;
-  margin-top: 9%;
-  content: attr(data-tooltip);
-  background-color: var(--principalTip);
-  color: var(--light);
-}
-
-.frames-2[data-tooltip]:after {
-  display: none;
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  border-radius: 20px;
-  left: -12%;
   margin-top: 9%;
   content: attr(data-tooltip);
   background-color: var(--principalTip);
