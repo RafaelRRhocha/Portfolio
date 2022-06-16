@@ -149,7 +149,7 @@ export function Projects() {
             </p>
             <a
               target='_blank'
-              href='https://rafaelrrhocha-cards-generator.vercel.app'
+              href='https://card-generator-rafaelrrhocha.vercel.app'
             >
               See More
             </a>
@@ -171,7 +171,7 @@ export function Projects() {
             </p>
             <a
               target='_blank'
-              href='https://rafaelrrhocha-trybe-tunes.vercel.app'
+              href='https://preview-songs-rafaelrrhocha.vercel.app'
             >
               See More
             </a>
@@ -192,7 +192,7 @@ export function Projects() {
             </p>
             <a
               target='_blank'
-              href='https://rafaelrrhocha.github.io/Projetos/shoppingCart/'
+              href='https://online-store-rafaelrrhocha.vercel.app'
             >
               See More
             </a>
