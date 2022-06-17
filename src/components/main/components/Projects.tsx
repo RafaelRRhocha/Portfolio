@@ -203,11 +203,10 @@ export function Projects() {
       <nav className='box-geral'>
         <div className='box'>
           <div className='text-content'>
-            <img src={mario} alt='Online Store' className='h-14' />
-            <h2>Online Store</h2>
+            <img src={mario} alt='Super Mario' className='h-14' />
+            <h2>Super Mario</h2>
             <p>
-              A little retelling of the first mario game made with Pure
-              JavaScript. <br />
+              A little retelling of the first mario game made with kaboom.js <br />
               <strong>Technologies Used:</strong> <br /> Js, Kaboom.js
             </p>
             <a
@@ -225,7 +224,7 @@ export function Projects() {
             <h2>Bomberman</h2>
             <p>
               A small retelling of one of the Bomberman franchise games. Made
-              with pure JavaScript. <br />
+              with kaboom.js. <br />
               <strong>Technologies Used:</strong> <br /> Js, Kaboom.js
             </p>
             <a
@@ -242,7 +241,7 @@ export function Projects() {
             <img src={zelda} alt='zelda' className='w-14 h-14 png' />
             <h2>Zelda 1986</h2>
             <p>
-              Game based minigame 1986 Zelda, Made with pure JavaScript. <br />
+              Game based minigame 1986 Zelda, Made with kaboom.js <br />
               <strong>Technologies Used:</strong> <br /> Js, Kaboom.js
             </p>
             <a
