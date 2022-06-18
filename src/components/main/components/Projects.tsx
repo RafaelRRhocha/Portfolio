@@ -45,7 +45,7 @@ export function Projects() {
               Project that simulates a 'frame' of drawings, where you can change
               the frame size, colors and customize the frame as you see fit.{' '}
               <br />
-              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest
+              <strong>Technologies Used:</strong> <br /> Html, Css, Js
             </p>
             <a
               target='_blank'
@@ -63,8 +63,7 @@ export function Projects() {
             <p>
               A list of Tasks with various Features, from adding content,
               remove, remove selected and save in browser. <br />
-              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest,
-              Bootstrap
+              <strong>Technologies Used:</strong> <br /> Html, Css, Js
             </p>
             <a
               target='_blank'
@@ -84,8 +83,7 @@ export function Projects() {
             <p>
               Project that simulates a game of colors, in which the aim is to
               hit the color in the corresponding frame to the RGB name. <br />
-              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest,
-              Bootstrap
+              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Bootstrap
             </p>
             <a
               target='_blank'
@@ -122,8 +120,7 @@ export function Projects() {
             <p>
               Full shopping cart, simulation of purchase in a store online,
               working with requisition of API. <br />
-              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest,
-              Bootstrap
+              <strong>Technologies Used:</strong> <br /> Html, Css, Js, Jest
             </p>
             <a
               target='_blank'
