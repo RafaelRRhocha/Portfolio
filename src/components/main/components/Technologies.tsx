@@ -9,7 +9,7 @@ import javaScript from '../../../assets/icons/javascript.svg';
 import RTL from '../../../assets/icons/RTL-Logotipo.png';
 import redux from'../../../assets/icons/redux.svg';
 import tailwind from'../../../assets/icons/tailwind.svg';
-import python from'../../../assets/icons/python.svg';
+import typeScript from'../../../assets/icons/typescript.svg';
 
 export function Technologies() {
   return (
@@ -44,7 +44,7 @@ export function Technologies() {
             href='https://github.com'
             target='_blank'
           >
-            <img src={gitHub} alt='GitHub' className='h-24 ml-4 w-[105px] h-[105px]'/>
+            <img src={gitHub} alt='GitHub' className='ml-4 w-[105px] h-[105px]'/>
           </a>
 
           <a
@@ -77,6 +77,15 @@ export function Technologies() {
           </a>
 
           <a
+              data-tooltip='TypeScript'
+              className='zoom frames m-11'
+              href='https://www.typescriptlang.org'
+              target='_blank'
+            >
+              <img src={typeScript} alt='typeScript' className='h-24 ml-4' />
+          </a>
+
+          <a
             data-tooltip='Tailwind'
             className='zoom frames m-11'
             href='https://tailwindcss.com/docs/installation'
@@ -93,7 +102,9 @@ export function Technologies() {
             >
               <img src={jest} alt='jest' className='h-24 ml-4'/>
           </a>
+        </nav>
 
+        <nav className='mt-10 flex justify-center'>
           <a
             data-tooltip='React'
             className='zoom frames m-11'
@@ -101,17 +112,6 @@ export function Technologies() {
             target='_blank'
           >
             <img src={react} alt='react' className='h-24 ml-2'/>
-          </a>
-        </nav>
-
-        <nav className='mt-10 flex justify-center'>
-          <a
-            data-tooltip='Vite'
-            className='zoom frames m-11'
-            href='https://vitejs.dev'
-            target='_blank'
-            >
-              <img src={vite} alt='Vite' className='h-24 ml-3' />
           </a>
 
           <a
@@ -124,21 +124,22 @@ export function Technologies() {
           </a>
 
           <a
+            data-tooltip='Vite'
+            className='zoom frames m-11'
+            href='https://vitejs.dev'
+            target='_blank'
+            >
+              <img src={vite} alt='Vite' className='h-24 ml-3' />
+          </a>
+
+
+          <a
             data-tooltip='Redux'
             className='zoom frames m-11'
             href='https://redux.js.org'
             target='_blank'
           >
             <img src={redux} alt='redux' className='h-24 ml-4' />
-          </a>
-
-          <a
-            data-tooltip='Python'
-            className='zoom frames m-11'
-            href='https://www.python.org'
-            target='_blank'
-          >
-            <img src={python} alt='python' className='h-24 ml-4' />
           </a>
         </nav>
       </div>
