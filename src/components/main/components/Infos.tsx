@@ -1,4 +1,5 @@
 import { CaretDoubleDown } from "phosphor-react";
+import Typewriter from "typewriter-effect";
 
 export function Infos() {
   return (
@@ -15,9 +16,25 @@ export function Infos() {
 
       <section className='rafael-nome'>
         <p>
-          Rafael <span className='colorH'>Rocha.</span>
+          Rafael <span>Rocha.</span>
           <br />
-          Web <span className='colorH'>Developer</span> <br />
+          <div className="text-[#00A9FF]">
+            <Typewriter
+              onInit={(typewriter)=> {
+                typewriter
+                .typeString("Front End.")
+
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Back End.")
+
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Full Stack")
+                .start();
+              }}
+            />
+          </div>
         </p>
       </section>
 

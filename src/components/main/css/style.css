@@ -49,16 +49,6 @@ p, a, h1 {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-  animation: escrevendo 4s steps(40) 1s 1 normal both;
-}
-
-@keyframes escrevendo {
-  from {
-    width: 0;
-  }
-  to {
-    width: 9em;
-  }
 }
 
 /* Icone de rolldown */
