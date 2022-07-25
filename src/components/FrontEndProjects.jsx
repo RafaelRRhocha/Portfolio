@@ -191,6 +191,123 @@ export function FrontEndProjects() {
 
         <nav className='box-geral'>
           <div className='box'>
+            <div className='text-content flex flex-col items-center'>
+              <img src="https://user-images.githubusercontent.com/99758843/180787757-108c0f58-e8e4-484d-a495-76b4864b2c57.png" alt='wallet' className='h-14 w-14' />
+              <h2>Portfolio of Expenses</h2>
+              <p>
+                A spreadsheet of expenses so you can create columns for the month,
+                description of the expense or income,
+                in short, its a CRUD-based application <br />
+                <strong>Technologies Used:</strong> <br /> React, Redux, RTL, CRUD
+              </p>
+              <a
+                target='_blank'
+                href='https://carteira-de-gastos-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+
+          <div className='box'>
+            <div className='text-content flex flex-col items-center'>
+              <img src="https://user-images.githubusercontent.com/99758843/180788642-925e62b1-d9a6-4a18-b6df-493e0870e13a.png" alt='trivia' className='h-14 w-[130px]' />
+              <h2>Trivia Game</h2>
+              <p>
+                Quiz trivia games: the ultimate quiz website!
+                Here you will find a selection of quizzes including trivia,
+                multiple choice!<br />
+                <strong>Technologies Used:</strong> <br /> Redux, Redux, RTL, Tailwind
+              </p>
+              <a
+                target='_blank'
+                href='https://trivia-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+
+          <div className='box'>
+            <div className='text-content'>
+              <img src="https://img.icons8.com/color/288/star-wars.png" alt='star wars' className='w-14 h-14 png' />
+              <h2>Star Wars Planets</h2>
+              <p>
+                This is a list of planets.
+                Where in the galaxy are the worlds of Star Wars
+                we can filter and choose different planets <br />
+                <strong>Technologies Used:</strong> <br /> Redux, Context API, RTL, Tailwind
+              </p>
+              <a
+                target='_blank'
+                href='https://star-wars-planets-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <nav className='box-geral'>
+          <div className='box'>
+            <div className='text-content flex flex-col items-center'>
+              <img src="https://img.icons8.com/color/192/netflix.png" alt='Netflix' className='h-14 w-14' />
+              <h2>Netflix Clone</h2>
+              <p>
+                This project constitutes a visual clone of the netflix platform,
+                where the user can edit the profile and navigate between the movies <br />
+                <strong>Technologies Used:</strong> <br /> React, Tailwind
+              </p>
+              <a
+                target='_blank'
+                href='https://clone-netflix-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+
+          <div className='box'>
+            <div className='text-content flex flex-col items-center'>
+              <img src="https://user-images.githubusercontent.com/99758843/180788642-925e62b1-d9a6-4a18-b6df-493e0870e13a.png" alt='bomberman' className='h-14 w-[130px]' />
+              <h2>Trivia Game</h2>
+              <p>
+                Quiz trivia games: the ultimate quiz website!
+                Here you will find a selection of quizzes including trivia,
+                multiple choice!<br />
+                <strong>Technologies Used:</strong> <br /> Redux, Redux, RTL, Tailwind
+              </p>
+              <a
+                target='_blank'
+                href='https://trivia-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+
+          <div className='box'>
+            <div className='text-content'>
+              <img src="https://img.icons8.com/color/288/star-wars.png" alt='zelda' className='w-14 h-14 png' />
+              <h2>Star Wars Planets</h2>
+              <p>
+                This is a list of planets.
+                Where in the galaxy are the worlds of Star Wars
+                we can filter and choose different planets <br />
+                <strong>Technologies Used:</strong> <br /> Redux, Context API, RTL, Tailwind
+              </p>
+              <a
+                target='_blank'
+                href='https://star-wars-planets-rafaelrrhocha.vercel.app' rel="noreferrer"
+              >
+                See More
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <nav className='box-geral'>
+          <div className='box'>
             <div className='text-content'>
               <img src="https://user-images.githubusercontent.com/99758843/178772385-b1885cd7-46b1-4024-bd20-eacd1a467be3.svg" alt='Super Mario' className='h-14' />
               <h2>Super Mario</h2>
