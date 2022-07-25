@@ -217,7 +217,7 @@ export function FrontEndProjects() {
                 Quiz trivia games: the ultimate quiz website!
                 Here you will find a selection of quizzes including trivia,
                 multiple choice!<br />
-                <strong>Technologies Used:</strong> <br /> Redux, Redux, RTL, Tailwind
+                <strong>Technologies Used:</strong> <br /> React, Redux, RTL, Tailwind
               </p>
               <a
                 target='_blank'
@@ -236,7 +236,7 @@ export function FrontEndProjects() {
                 This is a list of planets.
                 Where in the galaxy are the worlds of Star Wars
                 we can filter and choose different planets <br />
-                <strong>Technologies Used:</strong> <br /> Redux, Context API, RTL, Tailwind
+                <strong>Technologies Used:</strong> <br /> React, Context API, RTL, Tailwind
               </p>
               <a
                 target='_blank'
@@ -268,18 +268,15 @@ export function FrontEndProjects() {
           </div>
 
           <div className='box'>
-            <div className='text-content flex flex-col items-center'>
-              <img src="https://user-images.githubusercontent.com/99758843/180788642-925e62b1-d9a6-4a18-b6df-493e0870e13a.png" alt='bomberman' className='h-14 w-[130px]' />
-              <h2>Trivia Game</h2>
-              <p>
-                Quiz trivia games: the ultimate quiz website!
-                Here you will find a selection of quizzes including trivia,
-                multiple choice!<br />
-                <strong>Technologies Used:</strong> <br /> Redux, Redux, RTL, Tailwind
+            <div className='text-content'>
+              <img src="https://img.icons8.com/color/344/slack.png" alt='slack' className='w-14 h-14 png' />
+              <h2>Slack Clone</h2>
+              <p>...<br />
+                <strong>Technologies Used:</strong> <br /> ...
               </p>
               <a
                 target='_blank'
-                href='https://trivia-rafaelrrhocha.vercel.app' rel="noreferrer"
+                href='#' rel="noreferrer"
               >
                 See More
               </a>
@@ -287,18 +284,17 @@ export function FrontEndProjects() {
           </div>
 
           <div className='box'>
-            <div className='text-content'>
-              <img src="https://img.icons8.com/color/288/star-wars.png" alt='zelda' className='w-14 h-14 png' />
-              <h2>Star Wars Planets</h2>
+            <div className='text-content flex flex-col items-center'>
+              <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-recipes-foodies-flaticons-lineal-color-flat-icons-3.png" alt='recipes' className='h-14' />
+              <h2>Recipe Website/App</h2>
               <p>
-                This is a list of planets.
-                Where in the galaxy are the worlds of Star Wars
-                we can filter and choose different planets <br />
+                This is a recipe app, where the user can browse different recipes,
+                favorite, finish, edit the profile and much more!! <br />
                 <strong>Technologies Used:</strong> <br /> Redux, Context API, RTL, Tailwind
               </p>
               <a
                 target='_blank'
-                href='https://star-wars-planets-rafaelrrhocha.vercel.app' rel="noreferrer"
+                href='https://recipes-app-trybe.vercel.app' rel="noreferrer"
               >
                 See More
               </a>
