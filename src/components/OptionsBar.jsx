@@ -1,12 +1,18 @@
+import { UserCirclePlus, SignOut } from 'phosphor-react';
 import React from 'react';
-import { BackToHome } from './BackToHome';
+import { Link } from 'react-router-dom';
 import { DarkMode } from './DarkMode';
 
 export function OptionsBar() {
   return(
     <div>
       <div className="flex flex-col items-center gap-[20px]">
-        <BackToHome />
+        <Link to="/">
+          <SignOut className="w-8 h-8" />
+        </Link>
+        <Link to="/contact">
+          <UserCirclePlus className="w-8 h-8" />
+        </Link>
         <DarkMode />
       </div>
     </div>
