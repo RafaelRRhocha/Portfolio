@@ -16,6 +16,20 @@
   --cards: #141922;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000312;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #141922;
+  border: 3px solid #000312;
+  border-radius: 20px;
+}
+
 body {
   background-color: var(--background);
   height: 100vh;
