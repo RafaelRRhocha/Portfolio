@@ -132,7 +132,7 @@ export function Technologies() {
         <div>
           <img
             className='m-auto h-44'
-            src='https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelRRhocha&theme=great-gatsby&bg_color=000312&border_color=000312&hide_title=true&layout=compact'
+            src='https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelRRhocha&theme=great-gatsby&bg_color=171212&border_color=171212&hide_title=true&layout=compact'
           />
         </div>{' '}
       </section>

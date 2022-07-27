@@ -5,15 +5,15 @@
   --background: #fff;
   --principalHover: #144E66;
   --principalTip: #2f80ed;
-  --light: #000312;
+  --light: #171212;
 }
 
 .dark-mode:root {
-  --background: #000312;
+  --background: #171212;
   --principalHover: #2f80ed;
-  --principalTip: #144E66;
-  --light: #fff;
-  --cards: #141922;
+  --principalTip: #b72315;
+  --light: #d4d4d8;
+  --cards: #16181b;
 }
 
 ::-webkit-scrollbar {
@@ -21,12 +21,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #000312;
+  background: #171212;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #141922;
-  border: 3px solid #000312;
+  background-color: #16181b;
+  border: 3px solid #171212;
   border-radius: 20px;
 }
 

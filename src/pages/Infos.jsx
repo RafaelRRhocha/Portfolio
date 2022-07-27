@@ -11,7 +11,7 @@ export function Infos() {
         <div className="text-left">
           <span>{`Rafael Rocha = {`}</span> <br/>
           <span className="text-[4rem]">{`Web Developer: `}</span> <br/>
-          <div className="text-[#00A9FF] text-[4rem] ml-[450px] mt-[-97px]">
+          <div className="text-[#e6ba23] text-[4rem] ml-[450px] mt-[-97px]">
             <Typewriter
               onInit={(typewriter)=> {
                 typewriter

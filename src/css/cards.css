@@ -22,6 +22,7 @@
   background-color: var(--cards);
   transition: 0.3s;
   overflow: hidden;
+  border: 1px solid var(--light);
 }
 
 .box:hover{
@@ -81,7 +82,7 @@
 }
 
 .text-content a:hover {
-  color: #141922;
+  color: var(--background);
   background-color: var(--light);
   line-height: 43px;
   border: 2px solid var(--light);
