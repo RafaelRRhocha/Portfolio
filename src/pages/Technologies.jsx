@@ -155,12 +155,12 @@ export function Technologies() {
 
 
             <a
-              data-tooltip='MySQL'
+              data-tooltip='Python'
               className='zoom frames m-11'
-              href='https://www.mysql.com/'
+              href='https://www.python.org/'
               target='_blank' rel="noreferrer"
               >
-                <img src="https://user-images.githubusercontent.com/99758843/183508361-75dbbdbe-e309-401c-b0cc-8e2b51458146.png" alt='mySql' className='h-24 ml-3' />
+                <img src="https://img.icons8.com/color/288/python--v1.png" alt='python' className='h-24 ml-3' />
             </a>
           </nav>
         </div>
