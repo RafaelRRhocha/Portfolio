@@ -127,12 +127,21 @@ export function Technologies() {
 
           <nav className='mt-10 flex justify-center'>
             <a
-              data-tooltip='Node.JS'
+              data-tooltip='NodeJS'
               className='zoom frames m-11'
               href='https://nodejs.org/en/'
               target='_blank' rel="noreferrer"
             >
               <img src="https://img.icons8.com/fluency/192/node-js.png" alt='nodeJS' className='h-24 ml-4'/>
+            </a>
+
+            <a
+              data-tooltip='ExpressJs'
+              className='zoom frames m-11'
+              href='http://expressjs.com/pt-br/'
+              target='_blank' rel="noreferrer"
+            >
+              <img src="https://user-images.githubusercontent.com/99758843/183512381-7c8fc1a1-79db-4d46-8489-fe23d4e661ad.png" alt='express' className='h-24 ml-4' />
             </a>
 
             <a
@@ -144,14 +153,6 @@ export function Technologies() {
               <img src="https://img.icons8.com/color/288/mongodb.png" alt='MongoDB' className='h-24 ml-4' />
             </a>
 
-            <a
-              data-tooltip='Redux'
-              className='zoom frames m-11'
-              href='https://redux.js.org'
-              target='_blank' rel="noreferrer"
-            >
-              <img src="https://user-images.githubusercontent.com/99758843/178771208-02115902-024f-4156-bd96-f8eadeadd453.svg" alt='redux' className='h-24 ml-4' />
-            </a>
 
             <a
               data-tooltip='MySQL'
