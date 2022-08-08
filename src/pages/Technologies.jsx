@@ -107,14 +107,42 @@ export function Technologies() {
             </a>
 
             <a
-              data-tooltip='Vite'
+              data-tooltip='Redux'
               className='zoom frames m-11'
-              href='https://vitejs.dev'
+              href='https://redux.js.org'
               target='_blank' rel="noreferrer"
-              >
-                <img src="https://user-images.githubusercontent.com/99758843/178770632-6db583b9-a968-4407-8474-bda4945ada9a.svg" alt='Vite' className='h-24 ml-3' />
+            >
+              <img src="https://user-images.githubusercontent.com/99758843/178771208-02115902-024f-4156-bd96-f8eadeadd453.svg" alt='redux' className='h-24 ml-4' />
             </a>
 
+            <a
+              data-tooltip='MySQL'
+              className='zoom frames m-11'
+              href='https://www.mysql.com/'
+              target='_blank' rel="noreferrer"
+              >
+                <img src="https://user-images.githubusercontent.com/99758843/183508361-75dbbdbe-e309-401c-b0cc-8e2b51458146.png" alt='mySql' className='h-24 ml-3' />
+            </a>
+          </nav>
+
+          <nav className='mt-10 flex justify-center'>
+            <a
+              data-tooltip='Node.JS'
+              className='zoom frames m-11'
+              href='https://nodejs.org/en/'
+              target='_blank' rel="noreferrer"
+            >
+              <img src="https://img.icons8.com/fluency/192/node-js.png" alt='nodeJS' className='h-24 ml-4'/>
+            </a>
+
+            <a
+              data-tooltip='MongoDB'
+              className='zoom frames m-11'
+              href='https://testing-library.com/docs/react-testing-library/intro/'
+              target='_blank' rel="noreferrer"
+            >
+              <img src="https://img.icons8.com/color/288/mongodb.png" alt='MongoDB' className='h-24 ml-4' />
+            </a>
 
             <a
               data-tooltip='Redux'
@@ -123,6 +151,15 @@ export function Technologies() {
               target='_blank' rel="noreferrer"
             >
               <img src="https://user-images.githubusercontent.com/99758843/178771208-02115902-024f-4156-bd96-f8eadeadd453.svg" alt='redux' className='h-24 ml-4' />
+            </a>
+
+            <a
+              data-tooltip='MySQL'
+              className='zoom frames m-11'
+              href='https://www.mysql.com/'
+              target='_blank' rel="noreferrer"
+              >
+                <img src="https://user-images.githubusercontent.com/99758843/183508361-75dbbdbe-e309-401c-b0cc-8e2b51458146.png" alt='mySql' className='h-24 ml-3' />
             </a>
           </nav>
         </div>
