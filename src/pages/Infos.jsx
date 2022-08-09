@@ -6,11 +6,11 @@ import MenuHamburger from '../components/MenuHamburger';
 
 export function Infos() {
   return (
-    <div className="color">
+    <div className="sm:h-[100vh] sm:w-[100vw]">
       <Header />
       <div className="flex flex-col lg:hidden xl:hidden">
         <MenuHamburger />
-        <div>
+        <div className="text-[99%]">
           <span>{`Rafael Rocha`}</span>
           <div className="text-[#e6ba23]">
             <Typewriter
