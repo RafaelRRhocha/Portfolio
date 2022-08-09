@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 export default function MenuHamburger() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -23,21 +24,21 @@ export default function MenuHamburger() {
           <svg className="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
           </div>
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-            <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">
-              <a href="/aboutme">About Me</a>
-            </li>
-            <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">
-              <a href="/social">Social</a>
-            </li>
-            <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">
-              <a href="/training">Training</a>
-            </li>
-            <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">
-              <a href="/technologies">Technologies</a>
-            </li>
-            <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">
-              <a href="/projects">Projects</a>
-            </li>
+            <Link to="/aboutme">
+              <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">About Me</li>
+            </Link>
+            <Link to="/social">
+              <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">Social</li>
+            </Link>
+            <Link to="/training">
+              <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">Training</li>
+            </Link>
+            <Link to="/technologies">
+              <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">Technologies</li>
+            </Link>
+            <Link to="/projects">
+              <li className="border-b border-gray-400 my-6 uppercase scale-100 hover:scale-105 transition-all">Projects</li>
+            </Link>
           </ul>
         </div>
       </section>
