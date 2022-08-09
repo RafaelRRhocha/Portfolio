@@ -9,7 +9,7 @@ export function Projects() {
       <Header />
       <div className="flex items-center justify-center p-[72px] gap-10">
         <div className="card card-side shadow-xl max-w-lg max-h-[400px]">
-          <figure><img className="h-[100%] w-[140px]" src="https://placeimg.com/200/280/tech" alt="Movie" /></figure>
+          <figure><img className="h-[100%] w-[140px]" src="https://placeimg.com/200/280/tech" alt="projects cards" /></figure>
           <div className="card-body">
             <h2 className="card-title">Front End Projects</h2>
             <p>See all my projects as a Front End developer</p>
@@ -21,7 +21,7 @@ export function Projects() {
           </div>
         </div>
         <div className="card card-side shadow-xl max-w-lg max-h-[400px]">
-          <figure><img className="h-[100%] w-[140px]" src="https://placeimg.com/200/280/tech/grayscale" alt="Movie" /></figure>
+          <figure><img className="h-[100%] w-[140px]" src="https://placeimg.com/200/280/tech/grayscale" alt="projects cards" /></figure>
           <div className="card-body">
             <h2 className="card-title">Back End Projects</h2>
             <p>See all my projects as a Back End Developer</p>

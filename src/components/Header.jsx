@@ -8,16 +8,16 @@ export function Header() {
       <Link to="/aboutme">
         <a className='leading-[2.5] font-semibold hover:text-[#e6ba23] transition-transform cursor-pointer'>About Me</a>
       </Link>
-      <Link to="social">
+      <Link to="/social">
         <a className='leading-[2.5] font-semibold hover:text-[#e6ba23] transition-transform cursor-pointer'>Social Networks</a>
       </Link>
-      <Link to="training">
+      <Link to="/training">
         <a className='leading-[2.5] font-semibold hover:text-[#e6ba23] transition-transform cursor-pointer'>Training</a>
       </Link>
-      <Link to="technologies">
+      <Link to="/technologies">
         <a className='leading-[2.5] font-semibold hover:text-[#e6ba23] transition-transform cursor-pointer'>Technologies</a>
       </Link>
-      <Link to="projects">
+      <Link to="/projects">
         <a className='leading-[2.5] font-semibold hover:text-[#e6ba23] transition-transform hover:cursor-pointer'>Projects</a>
       </Link>
     </nav>

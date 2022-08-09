@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import { Infos } from './pages/Infos';
 import { AboutMe } from './pages/AboutMe';
 import { Social } from './pages/Social';
@@ -15,17 +15,21 @@ import './css/style.css';
 
 export default function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={ Infos } />
-      <Route path="/aboutme" component={ AboutMe } />
-      <Route path="/social" component={ Social } />
-      <Route path="/training" component={ Training } />
-      <Route path="/technologies" component={ Technologies } />
-      <Route path="/projects" component={ Projects } />
-      <Route path="/frontend" component={ FrontEndProjects } />
-      <Route path="/backend" component={ BackEndProjects } />
-      <Route path="/contact" component={ Forms } />
-      <Route path="*" component={ NotFound } />
-    </Switch>
+    <Router>
+      <Routes>
+        <Route path="/" >
+          <Route index element={ <Infos /> } />
+          <Route path="aboutme" element={ <AboutMe /> } />
+          <Route path="social" element={ <Social />} />
+          <Route path="training" element={ <Training /> } />
+          <Route path="technologies" element={ <Technologies /> } />
+          <Route path="projects" element={ <Projects /> } />
+          <Route path="frontend" element={ <FrontEndProjects /> } />
+          <Route path="backend" element={ <BackEndProjects /> } />
+          <Route path="contact" element={ <Forms /> } />
+          <Route path="*" element={ <NotFound /> } />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
