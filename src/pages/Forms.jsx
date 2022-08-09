@@ -6,12 +6,15 @@ import { Footer } from '../components/Footer';
 
 export function Forms() {
   const [sendRequest, setSendRequest] = useState(false);
-  const [forms, setForms] = useState({
-    email: '',
-  });
-  const { email } = forms;
+  const [disable, setDisable] = useState(true);
+  const [email, setEmail] = useState('');
 
-  const onInputChange = ({target: { name, value }}) => setForms((prevState) => ({...prevState, [name]: value}));
+  const verifyInputEmail = ({ target: { value } }) => {
+    const regexValidation = /\S+@\w+\.\w+/i;
+    const finalValidation = regexValidation.test(email);
+    setDisable(finalValidation);
+    setEmail(value);
+  };
 
   return (
     <>
@@ -42,7 +45,7 @@ export function Forms() {
                   placeholder="email"
                   name="email"
                   value={ email }
-                  onChange={ onInputChange }
+                  onChange={ verifyInputEmail }
                 />
                 <input
                   type="text"
@@ -54,7 +57,7 @@ export function Forms() {
                   className="textarea bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
                   placeholder="message"
                 />
-                <button disabled={ email.length < 5 } onClick={() => { setSendRequest(!sendRequest); setForms({ email: '' }) }} className="btn btn-success">Send Email</button>
+                <button disabled={ !disable } onClick={() => { setSendRequest(!sendRequest); setEmail('') }} className="btn btn-success">Send Email</button>
               </form>
             ) : (
               <div className="flex flex-col gap-2 items-center justify-center">
