@@ -2,11 +2,15 @@
 import React from 'react';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
+import MenuHamburger from '../components/MenuHamburger';
 
 export function AboutMe() {
   return (
     <div className="color">
       <Header />
+      <div className="lg:hidden xl:hidden">
+        <MenuHamburger />
+      </div>
       <section className='text margin-auto'>
         <article>
           <h1 className='text-4xl'>

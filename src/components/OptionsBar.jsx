@@ -6,7 +6,7 @@ import { DarkMode } from './DarkMode';
 export function OptionsBar() {
   return(
     <div>
-      <div className="flex flex-col items-center gap-[20px]">
+      <div className="flex flex-col sm:flex-row md:flex-row items-center gap-[20px]">
         <Link to="/">
           <SignOut className="w-8 h-8" />
         </Link>
