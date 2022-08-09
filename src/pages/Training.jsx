@@ -15,7 +15,7 @@ export function Training() {
           <strong>Training:</strong>
         </h1>
         <div className='flex justify-center font-semibold pt-[60px]'>
-          <nav className='itens-formacoes flex sm:flex-col sm:gap-10 md:flex-col md:gap-10 text-center sm:text-[20px] justify-center'>
+          <nav className='flex sm:flex-col md:flex-col lg:flex-row xl:flex-row sm:gap-10 md:gap-10 text-center sm:text-[20px] justify-center'>
             <a
               className='zoom'
               href='https://drive.google.com/file/d/1kvqlPQDmbvX_4H40O9n96eOTxLlLs4wn/view'

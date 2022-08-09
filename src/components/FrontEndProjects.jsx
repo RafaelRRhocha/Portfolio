@@ -1,16 +1,20 @@
 import React from 'react';
 import { Footer } from './Footer';
 import { Header } from './Header';
+import MenuHamburger from './MenuHamburger';
 
 export function FrontEndProjects() {
   return (
    <div className="color">
     <Header />
-      <section className='Projetos pt-20'>
-        <h1 className='text-4xl'>
-          <strong>Front End Projects:</strong>
-        </h1>
-        <nav className='box-geral'>
+    <div className="lg:hidden xl:hidden">
+      <MenuHamburger />
+    </div>
+    <div className='Projetos lg:pt-20 xl:pt-20 sm:pt-5 md:pt-5'>
+      <h1 className='text-4xl'>
+        <strong>Front End Projects:</strong>
+      </h1>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content'>
               <img src="https://user-images.githubusercontent.com/99758843/178772396-7737bcce-9276-4a20-9dbd-8c1d5afb62b0.svg" alt='pokebola' className='h-14' />
@@ -67,7 +71,7 @@ export function FrontEndProjects() {
           </div>
         </nav>
 
-        <nav className='box-geral'>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content'>
               <img src="https://user-images.githubusercontent.com/99758843/178772380-b06f5cdf-f36c-48c1-9995-e49d6dbdc87b.svg" alt='color' className='h-14' />
@@ -124,7 +128,7 @@ export function FrontEndProjects() {
           </div>
         </nav>
 
-        <nav className='box-geral'>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content'>
               <img src="https://user-images.githubusercontent.com/99758843/178772407-6d19772c-a353-4015-b359-26109fb4523c.svg" alt='color' className='h-14' />
@@ -189,7 +193,7 @@ export function FrontEndProjects() {
           </div>
         </nav>
 
-        <nav className='box-geral'>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content flex flex-col items-center'>
               <img src="https://user-images.githubusercontent.com/99758843/180787757-108c0f58-e8e4-484d-a495-76b4864b2c57.png" alt='wallet' className='h-14 w-14' />
@@ -248,7 +252,7 @@ export function FrontEndProjects() {
           </div>
         </nav>
 
-        <nav className='box-geral'>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content flex flex-col items-center'>
               <img src="https://img.icons8.com/color/192/netflix.png" alt='Netflix' className='h-14 w-14' />
@@ -302,7 +306,7 @@ export function FrontEndProjects() {
           </div>
         </nav>
 
-        <nav className='box-geral'>
+        <nav className='box-geral sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center'>
           <div className='box'>
             <div className='text-content'>
               <img src="https://user-images.githubusercontent.com/99758843/178772385-b1885cd7-46b1-4024-bd20-eacd1a467be3.svg" alt='Super Mario' className='h-14' />
@@ -355,7 +359,7 @@ export function FrontEndProjects() {
             </div>
           </div>
         </nav>
-      </section>
+      </div>
       <Footer />
    </div>
   );
