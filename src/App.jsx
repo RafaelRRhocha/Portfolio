@@ -16,20 +16,22 @@ import './css/style.css';
 export default function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" >
-          <Route index element={ <Infos /> } />
-          <Route path="aboutme" element={ <AboutMe /> } />
-          <Route path="social" element={ <Social />} />
-          <Route path="training" element={ <Training /> } />
-          <Route path="technologies" element={ <Technologies /> } />
-          <Route path="projects" element={ <Projects /> } />
-          <Route path="frontend" element={ <FrontEndProjects /> } />
-          <Route path="backend" element={ <BackEndProjects /> } />
-          <Route path="contact" element={ <Forms /> } />
-          <Route path="*" element={ <NotFound /> } />
-        </Route>
-      </Routes>
+      <React.StrictMode>
+        <Routes>
+          <Route path="/" >
+            <Route index element={ <Infos /> } />
+            <Route path="aboutme" element={ <AboutMe /> } />
+            <Route path="social" element={ <Social />} />
+            <Route path="training" element={ <Training /> } />
+            <Route path="technologies" element={ <Technologies /> } />
+            <Route path="projects" element={ <Projects /> } />
+            <Route path="frontend" element={ <FrontEndProjects /> } />
+            <Route path="backend" element={ <BackEndProjects /> } />
+            <Route path="contact" element={ <Forms /> } />
+            <Route path="*" element={ <NotFound /> } />
+          </Route>
+        </Routes>
+      </React.StrictMode>
     </Router>
   );
 }
