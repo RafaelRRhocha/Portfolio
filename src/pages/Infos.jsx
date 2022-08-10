@@ -32,27 +32,29 @@ export function Infos() {
         </div>
       </div>
       <section className='hidden lg:flex xl:flex justify-center pt-[4%] text-[4.5rem]'>
-        <div className="text-left">
-          <span>{`Rafael Rocha = {`}</span> <br/>
-          <span className="text-[4rem]">{`Web Developer: `}</span> <br/>
-          <div className="text-[#e6ba23] text-[4rem] ml-[450px] mt-[-97px]">
-            <Typewriter
-              onInit={(typewriter)=> {
-                typewriter
-                .typeString("Front End.")
+        <div className="flex flex-col text-left">
+          <p>{`Rafael Rocha = {`}</p>
+          <div className="text-[4rem] flex items-center gap-4 ml-7">
+            <p>{`Web Developer:`}</p>
+            <div className="text-[#e6ba23]">
+              <Typewriter
+                onInit={(typewriter)=> {
+                  typewriter
+                  .typeString("Front End.")
 
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Back End.")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Back End.")
 
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Full Stack.")
-                .start();
-              }}
-            />
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Full Stack.")
+                  .start();
+                }}
+              />
+            </div>
           </div>
-          <span>{`}`}</span>
+          <p>{`}`}</p>
         </div>
       </section>
       <Footer />
