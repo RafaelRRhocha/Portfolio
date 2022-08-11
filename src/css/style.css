@@ -17,16 +17,19 @@
 }
 
 ::-webkit-scrollbar {
+  display: none;
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #171212;
+  display: none;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #16181b;
-  border: 3px solid #171212;
+  display: none;
+  background-color: var(--background);
+  border: 3px solid var(--background);
   border-radius: 20px;
 }
 

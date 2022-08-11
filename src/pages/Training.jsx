@@ -10,7 +10,7 @@ export function Training() {
       <div className="lg:hidden xl:hidden">
         <MenuHamburger />
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 mt-[5%]">
         <h1 className='text-4xl'>
           <strong>Training:</strong>
         </h1>
