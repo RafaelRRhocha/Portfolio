@@ -69,7 +69,7 @@ export function Infos() {
           <p>{`}`}</p>
         </div>
       </div>
-      <div className="flex justify-center color mt-[13%]">
+      <div className="flex justify-center color mt-[13%] p-[3%]">
         <div className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-7 items-center justify-center mt-[3%] border-[#d4d4d8] border sm:p-5 md:p-10 lg:p-10 xl:p-10 rounded-lg">
             <div className="flex gap-10">
               <div className="flex flex-col items-center gap-5">
