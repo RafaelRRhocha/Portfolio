@@ -6,7 +6,6 @@ import { Footer } from '../components/Footer';
 import MenuHamburger from '../components/MenuHamburger';
 
 export function Forms() {
-  const [sendRequest, setSendRequest] = useState(false);
   const [disable, setDisable] = useState(true);
   const [email, setEmail] = useState('');
 
@@ -44,35 +43,31 @@ export function Forms() {
               </div>
             </div>
             <div>
-              {!sendRequest ? (
-                <form className="flex flex-col gap-3">
-                  <input
-                    type="text"
-                    className="input bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
-                    placeholder="email"
-                    name="email"
-                    value={ email }
-                    onChange={ verifyInputEmail }
-                  />
-                  <input
-                    type="text"
-                    className="input bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
-                    placeholder="name"
-                  />
-                  <textarea
-                    type="text"
-                    className="textarea bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
-                    placeholder="message"
-                  />
-                  <button disabled={ !disable } onClick={() => { setSendRequest(!sendRequest); setEmail('') }} className="btn btn-success">Send Email</button>
-                </form>
-              ) : (
-                <div className="flex flex-col gap-2 items-center justify-center">
-                  <img className="w-20" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/344/external-success-user-interface-flatart-icons-lineal-color-flatarticons.png" alt="send contact" />
-                  <p>Thanks For The Contact!</p>
-                  <button onClick={() => setSendRequest(!sendRequest)} className="btn btn-success">Send Another One</button>
-                </div>
-              )}
+              <form action="https://api.staticforms.xyz/submit" method="post" className="flex flex-col gap-3">
+                <input type="hidden" name="accessKey" value="cefcaba4-47bb-4c09-9a6e-b4a5dc52aca8" />
+                <input type="hidden" name="redirectTo" value={window.location.href} />
+                <input
+                  type="text"
+                  className="input bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
+                  placeholder="email"
+                  name="email"
+                  value={ email }
+                  onChange={ verifyInputEmail }
+                />
+                <input
+                  type="text"
+                  className="input bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
+                  placeholder="name"
+                  name="name"
+                />
+                <textarea
+                  name="message"
+                  type="text"
+                  className="textarea bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
+                  placeholder="message"
+                />
+                <button disabled={ !disable } onClick={() => alert('Thanks for the Feedback!')} className="btn btn-success">Send Email</button>
+              </form>
             </div>
           </div>
       </div>
