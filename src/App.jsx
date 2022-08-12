@@ -9,7 +9,6 @@ import { Projects } from './pages/Projects';
 import { FrontEndProjects } from './components/FrontEndProjects';
 import { BackEndProjects } from './components/BackEndProjects';
 import { NotFound } from './components/NotFound';
-import { Forms } from './pages/Forms';
 import './css/cards.css';
 import './css/style.css';
 
@@ -26,7 +25,6 @@ export default function App() {
           <Route path="projects" element={ <Projects /> } />
           <Route path="frontend" element={ <FrontEndProjects /> } />
           <Route path="backend" element={ <BackEndProjects /> } />
-          <Route path="contact" element={ <Forms /> } />
           <Route path="*" element={ <NotFound /> } />
         </Route>
       </Routes>
