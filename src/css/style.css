@@ -17,17 +17,14 @@
 }
 
 ::-webkit-scrollbar {
-  display: none;
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  display: none;
   background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  display: none;
   background-color: var(--background);
   border: 3px solid var(--background);
   border-radius: 20px;
