@@ -64,7 +64,7 @@ export function Forms() {
                     className="textarea bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
                     placeholder="message"
                   />
-                  <button disabled={ !disable } onClick={() => { setSendRequest(!sendRequest); setEmail('') }} className="btn btn-success">Send Email</button>
+                  <button disabled={ !disable || email.length < 2 } onClick={() => { setSendRequest(!sendRequest); setEmail('') }} className="btn btn-success">Send Email</button>
                 </form>
               ) : (
                 <div className="flex flex-col gap-2 items-center justify-center">
