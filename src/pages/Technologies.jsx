@@ -141,6 +141,15 @@ export function Technologies() {
 
             <a
               className='zoom frames m-11'
+              href='https://nextjs.org/'
+              target='_blank' rel="noreferrer"
+            >
+              <img src="https://user-images.githubusercontent.com/99758843/184502135-2c372c7d-97ca-4e19-97e1-f0a1f52eaa60.png" alt='nextJS' className='h-24 ml-3'/>
+              <p className="text-[35px]">NextJs</p>
+            </a>
+
+            <a
+              className='zoom frames m-11'
               href='https://redux.js.org'
               target='_blank' rel="noreferrer"
             >
@@ -156,15 +165,6 @@ export function Technologies() {
               >
                 <img src="https://user-images.githubusercontent.com/99758843/183508361-75dbbdbe-e309-401c-b0cc-8e2b51458146.png" alt='mySql' className='h-24 ml-3' />
                 <p className="text-[35px]">MySQL</p>
-            </a>
-
-            <a
-              className='zoom frames m-11'
-              href='https://nodejs.org/en/'
-              target='_blank' rel="noreferrer"
-            >
-              <img src="https://img.icons8.com/fluency/192/node-js.png" alt='nodeJS' className='h-24 ml-4'/>
-              <p className="text-[35px]">NodeJS</p>
             </a>
           </nav>
         </div>
@@ -276,7 +276,7 @@ export function Technologies() {
 
             <a
               data-tooltip='RTL'
-              className='zoom frames m-11'
+              className='zoom frames mx-11 mt-11'
               href='https://testing-library.com/docs/react-testing-library/intro/'
               target='_blank' rel="noreferrer"
             >
@@ -295,6 +295,15 @@ export function Technologies() {
             </a>
 
             <a
+              data-tooltip='NextJS'
+              className='zoom frames m-11'
+              href='https://nextjs.org/'
+              target='_blank' rel="noreferrer"
+            >
+              <img src="https://user-images.githubusercontent.com/99758843/184502135-2c372c7d-97ca-4e19-97e1-f0a1f52eaa60.png" alt='nextJS' className='h-24 ml-4'/>
+            </a>
+
+            <a
               data-tooltip='Redux'
               className='zoom frames m-11'
               href='https://redux.js.org'
@@ -310,15 +319,6 @@ export function Technologies() {
               target='_blank' rel="noreferrer"
               >
                 <img src="https://user-images.githubusercontent.com/99758843/183508361-75dbbdbe-e309-401c-b0cc-8e2b51458146.png" alt='mySql' className='h-24 ml-3' />
-            </a>
-
-            <a
-              data-tooltip='NodeJS'
-              className='zoom frames m-11'
-              href='https://nodejs.org/en/'
-              target='_blank' rel="noreferrer"
-            >
-              <img src="https://img.icons8.com/fluency/192/node-js.png" alt='nodeJS' className='h-24 ml-4'/>
             </a>
           </nav>
 
