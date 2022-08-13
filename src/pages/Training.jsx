@@ -44,7 +44,7 @@ export function Training() {
               />
               <p>
                 Data Fox <br />
-                Assembly and maintenance
+                Mounting and maintenance
               </p>
             </a>
           </nav>

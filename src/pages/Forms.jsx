@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import cvPTBR from "../files/CV-PTBR.pdf";
-import cvENUS from "../files/CV-ENUS.pdf";
+import cvPTBR from "../files/Rafael Rocha - Currículo.pdf";
+import cvENUS from "../files/Rafael Rocha - Resume.pdf";
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import MenuHamburger from '../components/MenuHamburger';
