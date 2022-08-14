@@ -294,11 +294,11 @@ export function FrontEndProjects() {
               <p>
                 This is a recipe app, where the user can browse different recipes,
                 favorite, finish, edit the profile and much more!! <br />
-                <strong>Technologies Used:</strong> <br /> Redux, Context API, RTL, Tailwind
+                <strong>Technologies Used:</strong> <br /> React, Context API, RTL, Tailwind
               </p>
               <a
                 target='_blank'
-                href='https://recipes-app-trybe.vercel.app' rel="noreferrer"
+                href='https://recipes-app-rafaelrrhocha.vercel.app/' rel="noreferrer"
               >
                 See More
               </a>
