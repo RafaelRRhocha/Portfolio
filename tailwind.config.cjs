@@ -2,6 +2,9 @@
 module.exports = {
  content: ["./src/**/*.{html,jsx}"],
   theme: {
+    backgroundImage: {
+      'imagebg': "url('https://i.postimg.cc/c4zCYgjS/Space-BG.png')",
+    },
     extend: {},
     screens: {
       'sm': '360px',

@@ -1,0 +1,27 @@
+ul, li {
+  height: 100%;
+  width: 100%;
+}
+
+.planet {
+  width: auto;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-shadow: 0 0 30px;
+  white-space: nowrap;
+  font-weight: 800;
+  text-align: center;
+}
