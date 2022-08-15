@@ -10,7 +10,7 @@ export function Social() {
         <MenuHamburger />
       </div>
      <Header />
-      <div className='redes-sociais p-[112px] sm:p-10 md:p-10'>
+      <div className='sm:pt-20 sm:p-10 md:p-10 md:pt-20'>
         <h1 className='text-4xl'>
           <strong>Social Networks:</strong>
         </h1>

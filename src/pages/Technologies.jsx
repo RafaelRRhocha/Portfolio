@@ -10,7 +10,7 @@ export function Technologies() {
       <div className="lg:hidden xl:hidden">
         <MenuHamburger />
       </div>
-      <div className="mt-36 flex flex-col sm:mt-10">
+      <div className="flex flex-col sm:pt-20 sm:p-10 md:p-10 md:pt-20">
         <h1 className='text-4xl'>
           <strong>My Skills:</strong>
         </h1>

@@ -10,7 +10,7 @@ export function FrontEndProjects() {
     <div className="lg:hidden xl:hidden">
       <MenuHamburger />
     </div>
-    <div className='Projetos lg:pt-20 xl:pt-20 sm:pt-5 md:pt-5'>
+    <div className='Projetos pt-20'>
       <h1 className='text-4xl'>
         <strong>Front End Projects:</strong>
       </h1>

@@ -45,6 +45,7 @@ body {
 
 .color {
   background-color: var(--background);
+  color: var(--light);
 }
 
 p, h1 {

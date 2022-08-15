@@ -11,7 +11,7 @@ export function AboutMe() {
       <div className="lg:hidden xl:hidden">
         <MenuHamburger />
       </div>
-      <section className='text margin-auto'>
+      <section className='text margin-auto sm:pt-20'>
         <article>
           <h1 className='text-4xl'>
             <strong>About Me:</strong>

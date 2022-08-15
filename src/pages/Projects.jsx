@@ -11,7 +11,7 @@ export function Projects() {
       <div className="lg:hidden xl:hidden">
         <MenuHamburger />
       </div>
-      <div className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center justify-center p-[72px] gap-10">
+      <div className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center justify-center sm:pt-20 sm:p-10 md:p-10 md:pt-20 gap-10">
         <div className="card card-side shadow-xl max-w-lg max-h-[400px]">
           <figure><img className="h-[100%] w-[140px]" src="https://placeimg.com/200/280/tech" alt="projects cards" /></figure>
           <div className="card-body">

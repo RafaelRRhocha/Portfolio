@@ -5,21 +5,20 @@ ul, li {
 
 .planet {
   width: auto;
-  height: 100vh;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-span {
+.rafael-name {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-transform: uppercase;
-  font-size: 5rem;
   text-shadow: 0 0 30px;
   white-space: nowrap;
   font-weight: 800;
