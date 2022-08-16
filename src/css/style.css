@@ -137,3 +137,11 @@ p, h1 {
 [data-tooltip]:hover:after {
   display: block;
 }
+
+.transform-translate {
+  transform: translate(-50%, -50%);
+}
+
+.text-shadow {
+  text-shadow: 0 0 30px;
+}
