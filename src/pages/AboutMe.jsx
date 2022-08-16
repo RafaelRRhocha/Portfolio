@@ -17,7 +17,7 @@ export function AboutMe() {
             <strong>About Me:</strong>
           </h1>
           <p>
-            Hi! How nice to see you here! My name is Rafael Rocha, I'm 18 years
+            Hi! How nice to see you here! My name is Rafael Rocha, I'm 19 years
             old. and I'll tell you a little about myself! <br />
             I am from Campos dos Goytacazes - RJ, I really like my city but I have
             plans to move when a good opportunity!
