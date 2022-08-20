@@ -29,10 +29,10 @@ const MenuHamburger: FC<MenuHamburgerProps> = ({}) => {
               <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">About Me</li>
             </Link>
             <Link href="/social">
-              <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">Socials</li>
+              <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">Social</li>
             </Link>
             <Link href="/training">
-              <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">Training</li>
+              <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">Socials</li>
             </Link>
             <Link href="/skills">
               <li className="border-b border-gray-400 uppercase scale-100 hover:scale-105 transition-all cursor-pointer">Skills</li>

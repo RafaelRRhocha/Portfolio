@@ -16,7 +16,7 @@ const Projects: FC<projectsProps> = ({}) => {
       <div className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row items-center justify-center sm:pt-20 sm:p-10 md:p-10 md:pt-20 gap-10">
         <div className="card card-side shadow-xl max-w-lg max-h-[400px]">
           <picture>
-            <img className="w-[280px] h-[100%]" src="https://placeimg.com/200/280/tech" alt="projects cards" />
+            <img className="w-[140px] h-[100%]" src="https://placeimg.com/200/280/tech" alt="projects cards" />
           </picture>
           <div className="card-body">
             <h2 className="card-title">Front End Projects</h2>
@@ -30,7 +30,7 @@ const Projects: FC<projectsProps> = ({}) => {
         </div>
         <div className="card card-side shadow-xl max-w-lg max-h-[400px]">
           <picture>
-            <img className="w-[280px] h-[100%]" src="https://placeimg.com/200/280/tech/grayscale" alt="projects cards" />
+            <img className="w-[140px] h-[100%]" src="https://placeimg.com/200/280/tech/grayscale" alt="projects cards" />
           </picture>
           <div className="card-body">
             <h2 className="card-title">Back End Projects</h2>

@@ -19,7 +19,7 @@ const Training: FC<trainingProps> = ({}) => {
         <div className='flex justify-center font-semibold pt-[60px]'>
           <nav className='flex sm:flex-col md:flex-col lg:flex-row xl:flex-row sm:gap-10 md:gap-10 text-center sm:text-[20px] justify-center'>
             <a
-              className='scale-100 hover:scale-110 transition-transform'
+              className='zoom'
               href='https://drive.google.com/file/d/1kvqlPQDmbvX_4H40O9n96eOTxLlLs4wn/view'
               target='_blank'
               rel='noreferrer'
@@ -38,7 +38,7 @@ const Training: FC<trainingProps> = ({}) => {
             </a>
 
             <a
-              className='scale-100 hover:scale-110 transition-transform ml-9'
+              className='zoom ml-9'
               href='https://drive.google.com/file/d/19CBUErmCBtMIa8FKlsoqO9uwyXgTfo9b/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
