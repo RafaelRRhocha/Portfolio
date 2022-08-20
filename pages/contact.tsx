@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
-import cvPTBR from "../files/Rafael Rocha - Currículo.pdf";
-import cvENUS from "../files/Rafael Rocha - Resume.pdf";
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
+import { FC, useState } from 'react';
+import Footer from '../components/Footer';
 import MenuHamburger from '../components/MenuHamburger';
+import Header from '../components/Header';
+import Image from 'next/image';
+// import ptbr from '../files/Rafael Rocha - Currículo.pdf';
+// import enus from '../files/Rafael Rocha - Resume.pdf';
 
-export function Forms() {
+interface contactProps {}
+
+const Contact: FC<contactProps> = ({}) => {
   const [sendRequest, setSendRequest] = useState(false);
   const [disable, setDisable] = useState(true);
   const [email, setEmail] = useState('');
 
-  const verifyInputEmail = ({ target: { value } }) => {
+  const verifyInputEmail = ({ target: { value } }: any) => {
     const regexValidation = /\S+@\w+\.\w+/i;
     const finalValidation = regexValidation.test(email);
     setDisable(finalValidation);
@@ -34,10 +37,10 @@ export function Forms() {
                   </p>
                   <p className="text-[20px]">Download my Resume!</p>
                   <div className="flex gap-2">
-                    <a href={cvPTBR} download>
+                    <a href={`../files/Rafael Rocha - Currículo.pdf`} download>
                       <button className="btn btn-error hover:animate-pulse">CV - PT BR</button>
                     </a>
-                    <a href={cvENUS} download>
+                    <a href={`../files/Rafael Rocha - Resume.pdf`} download>
                       <button className="btn btn-error hover:animate-pulse">CV - EN US</button>
                     </a>
                   </div>
@@ -60,7 +63,6 @@ export function Forms() {
                     placeholder="name"
                   />
                   <textarea
-                    type="text"
                     className="textarea bg-[#d4d4d8] w-full max-w-xs text-black placeholder:text-black placeholder:opacity-[0.5]"
                     placeholder="message"
                   />
@@ -68,7 +70,7 @@ export function Forms() {
                 </form>
               ) : (
                 <div className="flex flex-col gap-2 items-center justify-center">
-                  <img className="w-20" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/344/external-success-user-interface-flatart-icons-lineal-color-flatarticons.png" alt="send contact" />
+                  <Image width="80px" height="80px" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/344/external-success-user-interface-flatart-icons-lineal-color-flatarticons.png" alt="send contact" />
                   <p>Thanks For The Contact!</p>
                   <button onClick={() => setSendRequest(!sendRequest)} className="btn btn-success">Send Another One</button>
                 </div>
@@ -80,3 +82,5 @@ export function Forms() {
     </div>
   )
 }
+
+export default Contact;

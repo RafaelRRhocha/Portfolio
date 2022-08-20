@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
- content: ["./src/**/*.{html,jsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     backgroundImage: {
       'imagebg': "url('https://i.postimg.cc/c4zCYgjS/Space-BG.png')",

@@ -1,12 +1,3 @@
-.png {
-  margin: 0 auto;
-}
-
-.projetos {
-  display: flex;
-  flex-direction: row;
-}
-
 .box-geral {
   display: flex;
   justify-content: center;
