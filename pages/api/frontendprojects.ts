@@ -101,8 +101,16 @@ export default function handler(
       ref: 'https://star-wars-planets-rafaelrrhocha.vercel.app'
     },
     {
-      image: 'https://img.icons8.com/color/344/slack.png',
+      image: 'https://img.icons8.com/color/344/netflix-desktop-app--v1.png',
       name: 'Netflix Clone',
+      description: `What is Netflix Clone? Netflix Clone is an online video entertainment
+        website similar to Netflix`,
+        technologies: 'React, Tailwind',
+      ref: 'https://clone-netflix-rafaelrrhocha.vercel.app'
+    },
+    {
+      image: 'https://img.icons8.com/color/344/slack.png',
+      name: 'Slack Clone',
       description: `under development`,
       technologies: 'under development',
       ref: '#'
