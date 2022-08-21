@@ -12,7 +12,7 @@
   background-color: var(--cards);
   transition: 0.3s;
   overflow: hidden;
-  border: 1px solid var(--light);
+  border: 1px solid var(--cardsBorder);
 }
 
 .box:hover{

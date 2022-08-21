@@ -5,6 +5,7 @@
   --background: #fff;
   --principalHover: #144E66;
   --light: #171212;
+  --cardsBorder: #171212;
   --cards: #d4d4d8;
 }
 
@@ -12,6 +13,7 @@
   --background: #171212;
   --principalHover: #2f80ed;
   --light: #d4d4d8;
+  --cardsBorder: transparent;
   --cards: #16181b;
 }
 
