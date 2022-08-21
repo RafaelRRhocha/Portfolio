@@ -4,7 +4,6 @@
 .light-mode:root {
   --background: #fff;
   --principalHover: #144E66;
-  --principalTip: #2f80ed;
   --light: #171212;
   --cards: #d4d4d8;
 }
@@ -12,7 +11,6 @@
 :root {
   --background: #171212;
   --principalHover: #2f80ed;
-  --principalTip: #b72315;
   --light: #d4d4d8;
   --cards: #16181b;
 }
@@ -47,6 +45,8 @@ body {
 .color {
   background-color: var(--background);
   color: var(--light);
+  transition: background 0.2s ease,
+    padding 0.8s linear;
 }
 
 p, h1 {
