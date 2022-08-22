@@ -3,8 +3,6 @@ import Footer from '../components/Footer';
 import MenuHamburger from '../components/MenuHamburger';
 import Header from '../components/Header';
 import Image from 'next/image';
-// import ptbr from '../files/Rafael Rocha - Currículo.pdf';
-// import enus from '../files/Rafael Rocha - Resume.pdf';
 
 interface contactProps {}
 
@@ -35,13 +33,21 @@ const Contact: FC<contactProps> = ({}) => {
                     please fill this form and i will enter
                     contact us as soon as possible!
                   </p>
-                  <p className="text-[20px]">Download my Resume!</p>
+                  <p className="text-[20px]">Check my Resume!</p>
                   <div className="flex gap-2">
-                    <a href={`../files/Rafael Rocha - Currículo.pdf`} download>
-                      <button className="btn btn-error hover:animate-pulse">CV - PT BR</button>
+                    <a
+                      className="btn btn-error hover:animate-pulse"
+                      href="https://drive.google.com/file/d/1JSx4KhgOClrux9QZHUbjQ87eNNZo-t2A/view?usp=sharing"
+                      target='_blank'
+                      rel='noreferrer'>
+                      CV - PT BR
                     </a>
-                    <a href={`../files/Rafael Rocha - Resume.pdf`} download>
-                      <button className="btn btn-error hover:animate-pulse">CV - EN US</button>
+                    <a
+                      className="btn btn-error hover:animate-pulse"
+                      href="https://drive.google.com/file/d/1Y3KTB6qLitDm0zSwC8G3Sy8JWBy-I23v/view?usp=sharing"
+                      target='_blank'
+                      rel='noreferrer'>
+                      CV - EN US
                     </a>
                   </div>
               </div>
