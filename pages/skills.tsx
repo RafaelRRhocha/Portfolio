@@ -25,7 +25,7 @@ const Skills: FC<skillsProps> = ({}) => {
         <h1 className='text-4xl'>
           <strong>My Skills:</strong>
         </h1>
-        <div className="flex sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-2 flex-row flex-wrap justify-center items-center w-[800px]">
+        <div className="flex gap-2 flex-wrap justify-center items-center w-[800px]">
           {!mySkills ? <Loading /> : (
             mySkills.map((e: any, i: number) => (
               <div key={ i } className='flex flex-col justify-center items-center'>
@@ -40,10 +40,9 @@ const Skills: FC<skillsProps> = ({}) => {
                     <img
                       src={e.image}
                       alt={e.name}
-                      className="sm:m-auto h-24 md:ml-11 md:mt-16 md:mr-11 lg:ml-11 lg:mt-16 lg:mr-11 xl:ml-11 xl:mt-16 xl:mr-11"
+                      className="h-24 ml-11 mt-16 mr-11"
                     />
                   </picture>
-                  <p className='text-[35px] m-auto md:hidden lg:hidden xl:hidden sm:flex'>{e.name}</p>
                 </a>
               </div>
             ))
