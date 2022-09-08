@@ -34,10 +34,10 @@ const Projects: FC<projectsProps> = ({}) => {
             <img className="w-[300px] h-[100%]" src={`${techUrl}/grayscale` }alt="projects cards" />
           </picture>
           <div className="card-body">
-            <h2 className="card-title">Back End Projects</h2>
-            <p className="sm:hidden md:hidden lg:flex xl:flex">See all my projects as a Back End Developer</p>
+            <h2 className="card-title">Full Stack Projects</h2>
+            <p className="sm:hidden md:hidden lg:flex xl:flex">See all my projects as a Full Stack Developer</p>
             <div className="card-actions justify-end">
-              <Link href="/projects/backend">
+              <Link href="/projects/fullstack">
                 <button className="btn btn-primary">See Projects</button>
               </Link>
             </div>
