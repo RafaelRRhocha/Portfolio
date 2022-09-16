@@ -11,6 +11,18 @@ export default function handler(
       description: 'How good are you with general knowledge? Test your knowledge by getting the quiz questions right!',
       technologies: 'Next.Js, TypeScript, Tailwind',
       ref: 'https://quiz-rafaelrrhocha.vercel.app'
-    }
+    },
+    {
+      image: 'https://img.icons8.com/external-flaticons-flat-circular-flat-icons/344/external-clients-media-agency-flaticons-flat-circular-flat-icons.png',
+      description: 'This application is a customer registration screen integrated with google firebase, the user can create, read, update and delete the customer in question',
+      technologies: 'Next.Js, TypeScript, Tailwind, Firebase',
+      ref: 'https://register-app-rafaelrrhocha.vercel.app'
+    },
+    {
+      image: 'https://img.icons8.com/clouds/344/smartphone-chat-male.png',
+      description: '...under development...',
+      technologies: 'Next.Js, TypeScript, Tailwind, Firebase',
+      ref: 'https://online-chat-rafaelrrhocha.vercel.app'
+    },
   ])
 }
