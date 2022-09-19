@@ -109,11 +109,11 @@ export default function handler(
       ref: 'https://clone-netflix-rafaelrrhocha.vercel.app'
     },
     {
-      image: 'https://img.icons8.com/color/344/slack.png',
-      name: 'Slack Clone',
-      description: `under development`,
-      technologies: 'under development',
-      ref: '#'
+      image: 'https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/344/external-notepad-shopping-and-commerce-smashingstocks-outline-color-smashing-stocks.png',
+      name: 'NotePad',
+      description: `A simple notepad :)`,
+      technologies: 'Next.js, TypeScript, Tailwind',
+      ref: 'https://bloco-de-notas-rafaelrrhocha.vercel.app'
     },
     {
       image: 'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-recipes-foodies-flaticons-lineal-color-flat-icons-3.png',
