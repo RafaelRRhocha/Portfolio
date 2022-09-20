@@ -25,7 +25,7 @@ const Skills: FC<skillsProps> = ({}) => {
         <h1 className='text-4xl'>
           <strong>My Skills:</strong>
         </h1>
-        <div className="flex gap-2 flex-wrap justify-center items-center w-[800px]">
+        <div className="flex gap-2 flex-wrap justify-center items-center w-[70%]">
           {!mySkills ? <Loading /> : (
             mySkills.map((e: any, i: number) => (
               <div key={ i } className='flex flex-col justify-center items-center'>
