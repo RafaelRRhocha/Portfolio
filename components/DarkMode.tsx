@@ -4,7 +4,7 @@ import type { FC } from 'react';
 interface DarkModeProps {}
 
 const DarkMode: FC<DarkModeProps> = ({}) => {
-  const [darkMode, setDarkMode] = useState('light');
+  const [darkMode, setDarkMode] = useState<string | null>('light');
 
   const changeTheme = () => {
     const newTheme = darkMode === '' ? 'light' : '';
