@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-.light-mode:root {
+.light:root {
   --background: #fff;
   --principalHover: #144E66;
   --light: #171212;
